@@ -49,11 +49,11 @@ public class Sendmail extends HttpServlet {
         String url = "haha";
         String subject = "haha";
         String to = rec;
-        //String to = "catchapurba@gmail.com";
+       
         
       Properties props = new Properties();
-      String SMTP_AUTH_USER="catchapurba@gmail.com";
-      String SMTP_AUTH_PWD="Nikereebok81";
+      String SMTP_AUTH_USER="exchangeserver@gmail.com";
+      String SMTP_AUTH_PWD="Server";
       props.put("mail.transport.protocol", "smtps");
       props.put("mail.smtps.host", SMTP_HOST_NAME);
       props.put("mail.smtps.auth", "true");
