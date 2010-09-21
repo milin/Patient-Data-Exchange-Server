@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds
+END
+c-1_0.tld
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/c-1_0.tld
+END
+sql-1_0-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/sql-1_0-rt.tld
+END
+sql.tld
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/sql.tld
+END
+permittedTaglibs.tld
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/permittedTaglibs.tld
+END
+fn.tld
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/fn.tld
+END
+fmt-1_0.tld
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/fmt-1_0.tld
+END
+scriptfree.tld
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/scriptfree.tld
+END
+x.tld
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/x.tld
+END
+x-1_0-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/x-1_0-rt.tld
+END
+sql-1_0.tld
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/sql-1_0.tld
+END
+c.tld
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/c.tld
+END
+c-1_0-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/c-1_0-rt.tld
+END
+x-1_0.tld
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/x-1_0.tld
+END
+fmt-1_0-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/fmt-1_0-rt.tld
+END
+fmt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/tlds/fmt.tld
+END

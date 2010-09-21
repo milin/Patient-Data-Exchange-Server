@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/506/trunk/project/src/webapp/projecthl7/src
+END
+MessageResources_th_TH.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/MessageResources_th_TH.properties
+END
+MessageResources_en_US.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/505/trunk/project/src/webapp/projecthl7/src/MessageResources_en_US.properties
+END
+MessageResources_th_TH.src
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/506/trunk/project/src/webapp/projecthl7/src/MessageResources_th_TH.src
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/hibernate.cfg.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/log4j.xml
+END

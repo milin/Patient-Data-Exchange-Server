@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+ <context-param>
+  <param-name>maxDisplayPersonal</param-name>
+  <param-value>5</param-value>
+ </context-param>
+ <context-param>
+  <param-name>maxDisplayAdmin</param-name>
+  <param-value>20</param-value>
+ </context-param>
+ <context-param>
+  <param-name>subjectMail</param-name>
+  <param-value>registration confirmation‏</param-value>
+ </context-param>
+
+ <context-param>
+  <param-name>textMail2</param-name>
+  <param-value>Thanks for joining us! Click on the link below to confirm your Patient Exchange System account and start sharing.</param-value>
+ </context-param>
+ <context-param>
+  <param-name>textMail3</param-name>
+  <param-value>Patient Exchange System</param-value>
+ </context-param>
+ <context-param>
+		<param-name>dateAndTime</param-name>
+		<param-value>dd.MM.yyyy HH:mm:ss</param-value>
+</context-param>
+ 
+ 
+ <!-- path www -->
+
+
+ <filter>
+  <filter-name>Charset Filter</filter-name>
+  <filter-class>com.example.filter.CharsetFilter</filter-class>
+  	<init-param>
+   		<param-name>requestEncoding</param-name>
+   		<param-value>UTF-8</param-value>
+  	</init-param>
+ </filter>
+ <filter-mapping>
+  <filter-name>Charset Filter</filter-name>
+  <url-pattern>/*</url-pattern>
+ </filter-mapping>
+ 
+ 
+ 
+ <!--Begin Authorization Filter  -->
+ 	<filter>
+		<filter-name>Authorization Filter</filter-name>
+		<filter-class> 
+		    com.example.filter.AuthorizationFilter 
+		</filter-class>
+	</filter>
+	<filter-mapping>
+	 	<filter-name>Authorization Filter</filter-name>
+			<url-pattern>*.do</url-pattern>
+	</filter-mapping>
+		<filter-mapping>
+		  	<filter-name>Authorization Filter</filter-name>
+		  <url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+ <!-- End -->
+ 
+ 
+ 
+ <!-- path www -->
+ <listener>
+  <listener-class>com.example.listener.MyServletContextListener</listener-class>
+ </listener>
+ <listener>
+    <listener-class>com.example.listener.SessionCounter</listener-class>
+</listener>
+ 
+ <!-- Standard Action Servlet Configuration -->
+ <servlet>
+  <servlet-name>action</servlet-name>
+  <servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+  <init-param>
+   <param-name>config</param-name>
+   <param-value>/WEB-INF/struts-config.xml</param-value>
+  </init-param>
+  <load-on-startup>2</load-on-startup>
+ </servlet>
+ <!-- Standard Action Servlet Mapping -->
+ <servlet-mapping>
+  <servlet-name>action</servlet-name>
+  <url-pattern>*.do</url-pattern>
+ </servlet-mapping>
+ <!-- The Usual Welcome File List -->
+ <welcome-file-list>
+  <welcome-file>signIn.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+ <session-config>
+   <session-timeout>20</session-timeout> 
+ </session-config>
+  
+		  
+	
+</web-app>

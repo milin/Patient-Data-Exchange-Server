@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project AppClient" basedir=".">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="dist/AppClient.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="org.pdes.ServiceTest"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="build/classes"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/XmlSchema-1.4.3.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/activation-1.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/antlr-2.7.7.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axiom-api-1.2.8.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axiom-dom-1.2.8.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axiom-impl-1.2.8.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-adb-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-adb-codegen-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-codegen-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-corba-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-fastinfoset-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-java2wsdl-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-jaxbri-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-jaxws-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-jibx-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-json-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-kernel-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-metadata-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-mtompolicy-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-saaj-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-spring-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-transport-http-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-transport-local-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/axis2-xmlbeans-1.5.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/commons-codec-1.3.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/commons-fileupload-1.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/commons-httpclient-3.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/commons-io-1.4.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/httpcore-4.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/log4j-1.2.15.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/mail-1.4.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/neethi-2.0.4.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/woden-api-1.0M8.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/woden-impl-dom-1.0M8.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/wsdl4j-1.6.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/wstx-asl-3.2.4.jar"/>
+            <fileset dir="WebContent/WEB-INF/classes"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/jasper-jdt.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/el-api.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/catalina-ha.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/catalina-tribes.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/commons-pool.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/tomcat-coyote.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/catalina.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/tomcat-i18n-es.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/jsp-api.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/jasper-el.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="WebContent/WEB-INF/lib/commons-dbcp.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/servlet-api.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/tomcat-i18n-fr.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/jasper.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/catalina-ant.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/annotations-api.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/opt/tomcat6/lib/tomcat-i18n-ja.jar"/>
+        </jar>
+    </target>
+</project>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/319/trunk/project/src/webservice/PatientDataExchange/WebContent/axis2-web/include
+END
+adminfooter.inc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/319/trunk/project/src/webservice/PatientDataExchange/WebContent/axis2-web/include/adminfooter.inc
+END
+header.inc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/319/trunk/project/src/webservice/PatientDataExchange/WebContent/axis2-web/include/header.inc
+END
+link-footer.inc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/319/trunk/project/src/webservice/PatientDataExchange/WebContent/axis2-web/include/link-footer.inc
+END
+link-footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/319/trunk/project/src/webservice/PatientDataExchange/WebContent/axis2-web/include/link-footer.jsp
+END
+httpbase.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/319/trunk/project/src/webservice/PatientDataExchange/WebContent/axis2-web/include/httpbase.jsp
+END
+footer.inc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/319/trunk/project/src/webservice/PatientDataExchange/WebContent/axis2-web/include/footer.inc
+END
+adminheader.inc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/319/trunk/project/src/webservice/PatientDataExchange/WebContent/axis2-web/include/adminheader.inc
+END
+adminheader.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/319/trunk/project/src/webservice/PatientDataExchange/WebContent/axis2-web/include/adminheader.jsp
+END

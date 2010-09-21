@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/334/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/modules
+END
+addressing-1.5.1.mar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/334/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/modules/addressing-1.5.1.mar
+END
+modules.list
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/334/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/modules/modules.list
+END
+axis2-scripting-1.5.1.mar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/334/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/modules/axis2-scripting-1.5.1.mar
+END
+mex-1.5.1.mar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/334/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/modules/mex-1.5.1.mar
+END
+soapmonitor-1.5.1.mar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/334/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/modules/soapmonitor-1.5.1.mar
+END
+mtompolicy-1.5.1.mar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/334/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/modules/mtompolicy-1.5.1.mar
+END
+axis2-jaxws-mar-1.5.1.mar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/334/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/modules/axis2-jaxws-mar-1.5.1.mar
+END
+ping-1.5.1.mar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/334/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/modules/ping-1.5.1.mar
+END

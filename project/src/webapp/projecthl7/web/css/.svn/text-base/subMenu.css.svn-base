@@ -1,0 +1,31 @@
+   
+ul.v_menu{   
+    list-style:none;   
+    margin:0px;   
+    padding:0px;   
+    width:180px;   
+   font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;   
+   display:none;
+    border:1px #CCCCCC solid;   	
+}   
+ul.v_menu > li{   
+    display:block;   
+    height:15px;    
+    text-indent:5px;   
+    background-color:#EAEAEA;   
+    border:1px #FCFCFC solid;   
+}   
+ul.v_menu > li:hover{ 
+    display:block;   
+    height:15px;   
+    text-indent:5px;   
+   color:#FFFFFF;
+    background-color:#B6DFF8;   
+    border:1px #FFFFFF groove;   
+}   
+ul.v_menu > li > a{ 
+    text-decoration:none;   
+    color:#333333;   
+   font-weight:bold;
+}   

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EditProvider>
+	<provideId></provideId>
+	<provideName></provideName>
+	<provideUsername></provideUsername>
+	<providePassword></providePassword>
+	<provideWww></provideWww>
+	<providePhone></providePhone>
+	<provideFax></provideFax>
+	<provideType></provideType>
+	<provideCountry></provideCountry>
+	<provideProvince></provideProvince
+	<provideAddress></provideAddress>
+	<providePostalCode></providePostalCode>
+	<provideContactName></provideContactName>
+	<provideContactMobile></provideContactMobile>
+</EditProvider>

@@ -1,0 +1,485 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib
+END
+struts-core-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/struts-core-1.3.10.jar
+END
+serializer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/serializer.jar
+END
+stax-1.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/stax-1.2.0.jar
+END
+joda-time-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/joda-time-1.6.jar
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/jstl.jar
+END
+naming-factory.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/naming-factory.jar
+END
+xercesSamples.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/xercesSamples.jar
+END
+slf4j-simple-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/slf4j-simple-1.5.6.jar
+END
+pop3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/pop3.jar
+END
+jettison-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/jettison-license.txt
+END
+naming-factory-dbcp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/naming-factory-dbcp.jar
+END
+commons-chain-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/commons-chain-1.2.jar
+END
+commons-fileupload-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/commons-fileupload-1.2.1.jar
+END
+servlet-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/servlet-api.jar
+END
+xom-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/xom-1.1.jar
+END
+struts-tiles-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/struts-tiles-1.3.10.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/log4j-1.2.15.jar
+END
+struts-faces-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/struts-faces-1.3.10.jar
+END
+stax-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/stax-license.txt
+END
+java-core-2.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/java-core-2.4.1.jar
+END
+commons-el.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/commons-el.jar
+END
+jta-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/jta-1.1.jar
+END
+xercesImpl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/xercesImpl.jar
+END
+xpp3-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/xpp3-license.txt
+END
+struts-el-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/struts-el-1.3.10.jar
+END
+naming-resources.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/naming-resources.jar
+END
+struts-taglib-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/struts-taglib-1.3.10.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/mail.jar
+END
+struts-mailreader-dao-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/struts-mailreader-dao-1.3.10.jar
+END
+imap.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/imap.jar
+END
+jdom-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/jdom-1.1.jar
+END
+commons-collections-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/commons-collections-3.1.jar
+END
+mysql-connector-java-5.1.7-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar
+END
+xml-apis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/xml-apis.jar
+END
+joda-time-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/joda-time-license.txt
+END
+slf4j-api-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/slf4j-api-1.5.6.jar
+END
+resolver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/resolver.jar
+END
+commons-beanutils-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/commons-beanutils-1.8.0.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/activation.jar
+END
+slf4j-log4j12-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/slf4j-log4j12-1.5.6.jar
+END
+mailapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/mailapi.jar
+END
+junit-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/junit-license.txt
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/dom4j-1.6.1.jar
+END
+xstream-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/xstream-1.3.1.jar
+END
+stax-api-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/stax-api-1.0.1.jar
+END
+cglib-nodep-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/cglib-nodep-2.2.jar
+END
+struts-scripting-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/struts-scripting-1.3.10.jar
+END
+commons-digester-1.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/commons-digester-1.8.jar
+END
+struts-extras-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/struts-extras-1.3.10.jar
+END
+xom-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/xom-license.txt
+END
+json-lib-2.2.3-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/json-lib-2.2.3-jdk15.jar
+END
+commons-validator-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/commons-validator-1.3.1.jar
+END
+junit-4.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/junit-4.5.jar
+END
+javassist-3.4.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/javassist-3.4.GA.jar
+END
+dom4j-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/dom4j-license.txt
+END
+standard-1.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/standard-1.0.6.jar
+END
+standard.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/standard.jar
+END
+oro-2.0.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/oro-2.0.8.jar
+END
+cglib-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/cglib-license.txt
+END
+jasper-runtime.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/jasper-runtime.jar
+END
+xml-writer-0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/xml-writer-0.2.jar
+END
+c3p0-0.9.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/c3p0-0.9.1.jar
+END
+woodstox-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/woodstox-license.txt
+END
+xstream-benchmark-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/xstream-benchmark-1.3.1.jar
+END
+jdom-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/jdom-license.txt
+END
+commons-lang-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/commons-lang-license.txt
+END
+commons-io-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/commons-io-1.3.2.jar
+END
+oro-license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/oro-license.txt
+END
+smtp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/smtp.jar
+END
+ezmorph-1.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/ezmorph-1.0.6.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/hibernate3.jar
+END
+dsn.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/dsn.jar
+END
+wstx-asl-3.2.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/wstx-asl-3.2.7.jar
+END
+antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/antlr-2.7.6.jar
+END
+jettison-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/jettison-1.0.1.jar
+END
+commons-lang-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/commons-lang-2.4.jar
+END
+jasper-compiler.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/jasper-compiler.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/commons-logging-1.0.4.jar
+END
+xpp3_min-1.1.4c.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/xpp3_min-1.1.4c.jar
+END
+jsp-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/WEB-INF/lib/jsp-api.jar
+END

@@ -1,0 +1,85 @@
+10
+
+dir
+527
+https://exchangeserver.googlecode.com/svn/trunk/project/src/webapp/projecthl7/.metadata/.plugins
+https://exchangeserver.googlecode.com/svn
+
+
+
+2010-05-06T17:20:01.912203Z
+452
+chinoros.x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d467e630-0ac1-11df-8c7c-8529219665b1
+
+org.eclipse.wst.internet.cache
+dir
+
+org.eclipse.mylyn.bugzilla.core
+dir
+
+org.eclipse.team.cvs.core
+dir
+
+org.eclipse.ui.intro
+dir
+
+org.eclipse.jdt.core
+dir
+
+org.eclipse.mylyn.tasks.ui
+dir
+
+org.eclipse.core.runtime
+dir
+
+org.eclipse.debug.core
+dir
+
+org.eclipse.ui.ide
+dir
+
+org.tigris.subversion.subclipse.ui
+dir
+
+org.eclipse.equinox.p2.ui
+dir
+
+org.tigris.subversion.subclipse.core
+dir
+
+org.eclipse.epp.usagedata.recording
+dir
+
+org.eclipse.jdt.ui
+dir
+
+org.eclipse.ui.workbench
+dir
+
+org.eclipse.core.resources
+dir
+
+org.eclipse.debug.ui
+dir
+
+com.collabnet.subversion.merge
+dir
+
+org.eclipse.equinox.p2.ui.sdk
+dir
+

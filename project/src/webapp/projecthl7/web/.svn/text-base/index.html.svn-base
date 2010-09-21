@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<title>adminTheme</title>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<link rel="stylesheet" media="screen" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" media="screen" type="text/css" href="css/green.css" />
+		<!--[if lte IE 6]>
+		<link rel="stylesheet" media="screen" type="text/css" href="css/ie6.css" />
+		<![endif]-->
+		
+	</head>
+	
+	<body>
+	
+		<div id="header">
+			<h1>adminTheme - main styles</h1>
+			<div id="login"><p>Logged in as: Username. <a href="">Settings</a> | <a href="">Logout &raquo;</a></p></div>
+			<div class="clear"></div>
+		</div>
+	
+		<div id="navi">
+			<ul id="navtabs">
+				<li><a href="">Dashboard</a></li>
+				<li><a href="">Menu Item One</a></li>
+				<li id="current"><a href="">Menu Item Two</a></li>
+				<li><a href="">Menu Item Three</a></li>
+				<li><a href="">Menu Item Four</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		
+		<div id="subnavi">		
+			<ul id="subnav">
+				<li><a href="">Submenu Item</a></li>
+				<li><a href="">Submenu Item</a></li>
+				<li id="sub-current"><a href="">Submenu Item</a></li>
+				<li><a href="">Submenu Item</a></li>
+				<li><a href="">Submenu Item</a></li>
+				<li><a href="">Submenu Item</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+			
+		
+		<div id="content">
+			<h2>H2: Lorem ipsum dolor sit amet.</h2>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent eros dui, ullamcorper et, euismod vulputate, congue id, enim. Phasellus enim quam, tempus ut, ultricies ac, condimentum ut, nulla. Ut volutpat posuere lorem. Sed rhoncus, augue eu accumsan sodales, massa nisl ultrices nunc, eu faucibus ante ligula sed lorem. Vestibulum rhoncus, neque eu pulvinar facilisis, diam justo posuere magna, a hendrerit mauris libero quis ligula. Ut id justo. Praesent ligula eros, molestie non, malesuada et, volutpat vel, metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec sit amet nisi auctor libero congue fermentum.</p>
+			<h3>H3: Vestibulum ante ipsum primis in faucibus.</h3>
+			
+			<p class="alert-ok">Phasellus enim quam, tempus ut!</p>
+			<p class="alert-wrong">Vestibulum rhoncus, neque eu pulvinar!</p>
+			<p class="alert-tip">Lorem ipsum consectetuer adipiscing elit.</p>
+			
+			<h4>H4: Praesent eros dui, ullamcorper et</h4>
+			
+			<div class="coding">
+				<pre>
+.alert-tip {
+background: #f3ebd4 url(images/icon-alert.gif) 10px center no-repeat;
+display: block;
+border: 1px solid #dc9b58;
+padding: 10px 10px 10px 45px;
+width: 75%;
+}</pre>
+			</div>
+			
+
+			
+
+				
+		</div>
+		
+		<div id="sidebar">
+			<h5>Sidebar preview</h5>
+			<ul id="sidebar-nav">
+				<li><a href="">Lorem ipsum dolor sit amet</a></li>
+				<li><a href="">Massa nisl ultrices nunc</a></li>
+				<li id="side-current"><a href="">Pulvinar facilisis</a></li>
+				<li><a href="">Vestibulum rhoncus neque eu pulvinar</a></li>
+				<li><a href="">Accumsan sodales</a></li>
+				<li><a href="">Consectetuer adipiscing elit</a></li>
+			</ul>
+			
+		
+			<div id="calendar">
+			<table cellspacing="0" cellpadding="0" summary="This month's calendar" width="85%">
+				<caption>
+					<a href="#" title="">&laquo;</a> October 2008 <a href="#" title="">&raquo;</a>
+				</caption>
+			
+ 				<tr>
+					<th scope="col" abbr="Sunday" title="Sunday">S</th>
+					<th scope="col" abbr="Monday" title="Monday">M</th>
+					<th scope="col" abbr="Tuesday" title="Tuesday">T</th>
+					<th scope="col" abbr="Wednesday" title="Wednesday">W</th>
+					<th scope="col" abbr="Thursday" title="Thursday">T</th>
+					<th scope="col" abbr="Friday" title="Friday">F</th>
+					<th scope="col" abbr="Saturday" title="Saturday">S</th>
+				</tr>
+ 				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				 <tr>
+					<td class="today"><a href="#">6</a></td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+					<td>11</td>
+					<td>12</td>
+				 </tr>
+				 <tr>
+					<td>13</td>
+					<td>14</td>
+					<td>15</td>
+					<td><a href="#">16</a></td>
+					<td>17</td>
+					<td>18</td>
+					<td>19</td>
+				 </tr>
+				 <tr>
+					<td>20</td>
+					<td>21</td>
+					<td>22</td>
+					<td>23</td>
+					<td><a href="#">24</a></td>
+					<td>25</td>
+					<td>26</td>
+				 </tr>
+				 <tr>
+					<td>27</td>
+					<td>28</td>
+					<td>29</td>
+					<td><a href="#">30</a></td>
+					<td>31</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				 </tr>
+			</table>
+			</div>
+						
+		</div>
+				
+		<div class="clear"></div>	
+	
+	</body>
+	
+</html>

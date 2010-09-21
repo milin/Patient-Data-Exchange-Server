@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.bugzilla.core",1266997519385
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.bugzilla.ui",1266997519385
+started,bundle,org.eclipse.mylyn.commons.net,3.3.0.v20091013-0200-e3x,"org.eclipse.mylyn.commons.net",1266997519385
+started,bundle,org.eclipse.mylyn.commons.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.commons.ui",1266997519386
+started,bundle,org.eclipse.mylyn.context.core,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.context.core",1266997519387
+started,bundle,org.eclipse.mylyn.context.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.context.ui",1266997519388
+started,bundle,org.eclipse.mylyn.monitor.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.monitor.ui",1266997519388
+started,bundle,org.eclipse.mylyn.tasks.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.tasks.ui",1266997519389
+started,bundle,org.eclipse.mylyn.team.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.team.ui",1266997519390
+started,bundle,org.tigris.subversion.clientadapter,1.6.7,"org.tigris.subversion.clientadapter",1266997519390
+started,bundle,org.tigris.subversion.subclipse.core,1.6.7,"org.tigris.subversion.subclipse.core",1266997519390
+started,bundle,org.tigris.subversion.subclipse.mylyn,3.0.0,"org.tigris.subversion.subclipse.mylyn",1266997519390
+started,bundle,org.tigris.subversion.subclipse.ui,1.6.7,"org.tigris.subversion.subclipse.ui",1266997519392
+os,sysinfo,,,"linux",1266997519396
+arch,sysinfo,,,"x86_64",1266997519396
+ws,sysinfo,,,"gtk",1266997519396
+locale,sysinfo,,,"en_US",1266997519396
+processors,sysinfo,,,"2",1266997519396
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1266997519396
+java.runtime.version,sysinfo,,,"1.6.0_15-b03",1266997519396
+java.specification.name,sysinfo,,,"Java Platform API Specification",1266997519396
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1266997519396
+java.specification.version,sysinfo,,,"1.6",1266997519396
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1266997519396
+java.version,sysinfo,,,"1.6.0_15",1266997519397

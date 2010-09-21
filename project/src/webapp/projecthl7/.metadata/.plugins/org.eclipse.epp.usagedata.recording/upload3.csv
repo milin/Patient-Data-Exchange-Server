@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.ui.views.log",1266813659272
+started,bundle,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"org.eclipse.ui.workbench",1266813659273
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1266813659274
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1266813659275
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1266813659275
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1266813659275
+started,bundle,org.eclipse.wst.common.frameworks,1.1.300.v200904160730,"org.eclipse.wst.common.frameworks",1266813659276
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.1.v200908111817,"org.eclipse.wst.common.project.facet.core",1266813659276
+started,bundle,org.eclipse.wst.web,1.1.301.v200909021400,"org.eclipse.wst.web",1266813659276
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.102.v200903070248,"org.eclipse.wst.ws.service.policy.ui",1266813659277
+os,sysinfo,,,"linux",1266813659281
+arch,sysinfo,,,"x86_64",1266813659281
+ws,sysinfo,,,"gtk",1266813659281
+locale,sysinfo,,,"en_US",1266813659281
+processors,sysinfo,,,"2",1266813659282
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1266813659282
+java.runtime.version,sysinfo,,,"1.6.0_15-b03",1266813659282
+java.specification.name,sysinfo,,,"Java Platform API Specification",1266813659282
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1266813659282
+java.specification.version,sysinfo,,,"1.6",1266813659282
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1266813659282
+java.version,sysinfo,,,"1.6.0_15",1266813659282
+java.vm.info,sysinfo,,,"mixed mode",1266813659282
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1266813659282
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1266813659282

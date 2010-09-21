@@ -1,0 +1,26 @@
+Web Application Installation Manual
+
+1. Checkout the code from svn put the username and password to retrive the code.
+
+svn checkout https://exchangeserver.googlecode.com/svn/trunk/project --username chatpong@gmail.com
+
+2. You'll have the exchangeserver directory for our project. Then go to the project directory and build it with ant command. You must specify the tomcat home at build time or put it into build.xml file.
+
+cd  project/src/webapp
+
+ant  -D"tomcat.home=/usr/share/tomcat6/"
+
+3. Then you'll have the project.war file on dist directory. That can deploy on any java application server.
+
+4. Setup the Database
+MySQL
+4.1 Create the database.
+4.2 Change the parameter in project/src/webapp/src/hibernate.cfg.xml file. 
+You can see the following line in file , change it with your environment.
+
+Example.
+<property name="hibernate.connection.url">jdbc:mysql://127.0.0.1/projecthl7</property>
+<property name="hibernate.connection.username">projecthl7</property>
+<property name="hibernate.connection.password">1q2w3e4r</property>
+
+4.3 In the first startup the table will created automatically.

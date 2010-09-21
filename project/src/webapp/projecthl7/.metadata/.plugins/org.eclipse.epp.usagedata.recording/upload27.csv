@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.bugzilla.core",1267121802946
+started,bundle,org.tigris.subversion.subclipse.ui,1.6.7,"org.tigris.subversion.subclipse.ui",1267121803003
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.bugzilla.ui",1267121803090
+started,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1267121803221
+started,bundle,org.eclipse.mylyn.context.core,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.context.core",1267121803222
+started,bundle,org.eclipse.mylyn.context.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.context.ui",1267121803257
+started,bundle,org.eclipse.mylyn.tasks.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.tasks.ui",1267121803377
+started,bundle,org.eclipse.mylyn.team.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.team.ui",1267121803409
+started,bundle,org.tigris.subversion.subclipse.mylyn,3.0.0,"org.tigris.subversion.subclipse.mylyn",1267121803561
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1267121804400
+error,log,,,"Problems occurred opening the selected resources.",1267121805590
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1267121805941
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1267121807326
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1267121810443
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1267121811739
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.406.v200903031852,"org.eclipse.jst.ws.axis.creation.ui",1267121812360
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.405.v200901261650,"org.eclipse.jst.ws.axis.consumption.ui",1267121812361
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.306.v200810082309,"org.eclipse.jst.ws.axis.consumption.core",1267121812362
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.103.v200807162242,"org.eclipse.jst.ws.axis2.creation.ui",1267121812362
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.ui,1.0.102.v200807232000,"org.eclipse.jst.ws.axis2.consumption.ui",1267121812363
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.core,1.0.105.v200901220134,"org.eclipse.jst.ws.axis2.creation.core",1267121812363
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.core,1.0.104.v200810151442,"org.eclipse.jst.ws.axis2.consumption.core",1267121812364
+stopped,bundle,org.eclipse.jst.ws.axis2.ui,1.0.302.v200905260749,"org.eclipse.jst.ws.axis2.ui",1267121812382
+stopped,bundle,org.eclipse.jst.ws.axis2.core,1.0.104.v200810151442,"org.eclipse.jst.ws.axis2.core",1267121812383
+stopped,bundle,org.eclipse.jst.ws.creation.ui,1.0.408.v200904211646,"org.eclipse.jst.ws.creation.ui",1267121812383

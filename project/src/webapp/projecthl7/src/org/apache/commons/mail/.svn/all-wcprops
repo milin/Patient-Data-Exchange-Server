@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail
+END
+DefaultAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/DefaultAuthenticator.java
+END
+EmailAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/EmailAttachment.java
+END
+MessageResources_th_TH.properties
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/MessageResources_th_TH.properties
+END
+SimpleEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/SimpleEmail.java
+END
+SendEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/SendEmail.java
+END
+EmailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/EmailException.java
+END
+Email.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/Email.java
+END
+EmailUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/EmailUtils.java
+END
+MultiPartEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/MultiPartEmail.java
+END
+HtmlEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/HtmlEmail.java
+END
+ByteArrayDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/ByteArrayDataSource.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/src/org/apache/commons/mail/package.html
+END

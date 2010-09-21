@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.team.core,3.5.0.I20090527-0620,"org.eclipse.team.core",1267121801953
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1267121802033
+started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1267121802064
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1267121802065
+started,bundle,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui",1267121802067
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1267121802074
+started,bundle,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.editors",1267121802075
+started,bundle,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.ide",1267121802076
+started,bundle,org.eclipse.ui.net,1.2.1.r35x_20090812-1200,"org.eclipse.ui.net",1267121802076
+started,bundle,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views",1267121802077
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.ui.views.log",1267121802088
+started,bundle,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"org.eclipse.ui.workbench",1267121802089
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1267121802090
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1267121802091
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.1.v200908111817,"org.eclipse.wst.common.project.facet.core",1267121802091
+started,bundle,org.eclipse.wst.web,1.1.301.v200909021400,"org.eclipse.wst.web",1267121802091
+os,sysinfo,,,"linux",1267121802096
+arch,sysinfo,,,"x86_64",1267121802096
+ws,sysinfo,,,"gtk",1267121802096
+locale,sysinfo,,,"en_US",1267121802096
+processors,sysinfo,,,"2",1267121802096
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1267121802096
+java.runtime.version,sysinfo,,,"1.6.0_15-b03",1267121802096
+java.specification.name,sysinfo,,,"Java Platform API Specification",1267121802096
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1267121802096

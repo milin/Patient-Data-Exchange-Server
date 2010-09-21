@@ -1,0 +1,216 @@
+#   Licensed to the Apache Software Foundation (ASF) under one or more
+#   contributor license agreements.  See the NOTICE file distributed with
+#   this work for additional information regarding copyright ownership.
+#   The ASF licenses this file to You under the Apache License, Version 2.0
+#   (the "License"); you may not use this file except in compliance with
+#   the License.  You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+
+# -- standard errors --
+errors.header=<ul>
+errors.prefix=<li>
+errors.suffix=</li>
+errors.footer=</ul>
+# -- validator --
+errors.invalid={0} is invalid.
+errors.maxlength={0} can not be greater than {1} characters.
+errors.minlength={0} can not be less than {1} characters.
+errors.range={0} is not in the range {1} through {2}.
+errors.required={0} is required.
+errors.byte={0} must be an byte.
+errors.date={0} is not a date.
+errors.double={0} must be an double.
+errors.float={0} must be an float.
+errors.integer={0} must be an integer.
+errors.long={0} must be an long.
+errors.short={0} must be an short.
+errors.creditcard={0} is not a valid credit card number.
+errors.email={0} is an invalid e-mail address.
+# -- other --
+errors.cancel=Operation cancelled.
+errors.detail={0}
+errors.general=The process did not complete. Details should follow.
+errors.token=Request could not be completed. Operation is not in sequence.
+# -- welcome --
+welcome.title=Struts Blank Application
+welcome.heading=Welcome!
+welcome.message=To get started on your own application, copy the struts-blank.war to a new WAR file using the name for your application. Place it in your container's "webapp" folder (or equivalent), and let your container auto-deploy the application. Edit the skeleton configuration files as needed, restart your container, and you are on your way! (You can find the MessageResources.properties file with this message in the /WEB-INF/src folder.)
+
+# -- forms --
+#--register
+
+#--Begin
+
+
+
+applicationForm.hospital.header=\u0e2a\u0e21\u0e31\u0e04\u0e23
+applicationForm.hospital.header.edit=\u0e41\u0e01\u0e49\u0e44\u0e02\u0e1c\u0e39\u0e49\u0e43\u0e2b\u0e49\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23
+applicationForm.hospital.name=\u0e0a\u0e37\u0e48\u0e2d\u0e1c\u0e39\u0e49\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23
+applicationForm.hospital.username=\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e02\u0e49\u0e32\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19
+applicationForm.hospital.password=\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19
+applicationForm.hospital.passwordLength=7
+applicationForm.hospital.repassword=\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19\u0e2d\u0e35\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07
+applicationForm.hospital.www=\u0e40\u0e27\u0e47\u0e1a\u0e44\u0e0b\u0e15\u0e4c
+applicationForm.hospital.type=\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17
+applicationForm.hospital.government=\u0e23\u0e31\u0e10\u0e1a\u0e32\u0e25
+applicationForm.hospital.person=\u0e40\u0e2d\u0e01\u0e0a\u0e19
+applicationForm.hospital.phone=\u0e21\u0e37\u0e2d\u0e16\u0e37\u0e2d
+applicationForm.hospital.phone2=\u0e21\u0e37\u0e2d\u0e16\u0e37\u0e2d
+applicationForm.hospital.fax=\u0e41\u0e1f\u0e25\u0e01\u0e4c
+applicationForm.hospital.country=\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28
+applicationForm.hospital.city=\u0e40\u0e21\u0e37\u0e2d\u0e07
+applicationForm.hospital.address=\u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48
+applicationForm.hospital.createdOn=\u0e27\u0e31\u0e19\u0e17\u0e35\u0e48\u0e2a\u0e21\u0e31\u0e04\u0e23
+applicationForm.hospital.zip=\u0e23\u0e2b\u0e31\u0e2a\u0e44\u0e1b\u0e23\u0e13\u0e35\u0e22\u0e4c
+applicationForm.hospital.contactName=\u0e0a\u0e37\u0e48\u0e2d\u0e1c\u0e39\u0e49\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d
+applicationForm.hospital.status=\u0e2a\u0e16\u0e32\u0e19\u0e30
+applicationForm.hospital.contactSurName=\u0e19\u0e32\u0e21\u0e2a\u0e01\u0e38\u0e25\u0e1c\u0e39\u0e49\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d
+applicationForm.hospital.contactMobile=\u0e21\u0e37\u0e2d\u0e16\u0e37\u0e2d\u0e1c\u0e39\u0e49\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d
+applicationForm.hospital.contactEmail=\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e4c\u0e1c\u0e39\u0e49\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d
+applicationForm.hospital.example.username =Examples \: JSmith, John.Smith 
+applicationForm.hospital.example.phone =Example :
+applicationForm.hospital.example.zip=Example :
+applicationForm.hospital.example.fax=Example :
+applicationForm.hospital.example.contactMobile=Example :
+applicationForm.hospital.example.contactEmail=Example :
+applicationForm.hospital.addPersonal.providerName=Provider Name
+applicationForm.hospital.addProvider=\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1c\u0e39\u0e49\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23
+
+applicationForm.hospital.addStatus=\u0e2a\u0e16\u0e32\u0e19\u0e30
+applicationForm.submit=\u0e15\u0e01\u0e25\u0e07
+applicationForm.reset=\u0e40\u0e04\u0e23\u0e35\u0e22\u0e23\u0e4c
+applicationForm.hospital.connect=\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d
+#--end--#
+applicationForm.provider=\u0e1c\u0e39\u0e47\u0e43\u0e2b\u0e49\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23
+applicationForm.hospitalad.addminname=\u0e0a\u0e37\u0e48\u0e2d\u0e1c\u0e39\u0e49\u0e14\u0e39\u0e41\u0e25\u0e23\u0e30\u0e1a\u0e1a
+applicationForm.hospitalad.adminSurname=Admin-Surname
+applicationForm.hospitalad.email=\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e4c\u0e1c\u0e39\u0e49\u0e14\u0e39\u0e41\u0e25\u0e23\u0e30\u0e1a\u0e1a
+applicationForm.hospitalad.tel=\u0e42\u0e17\u0e23\u0e28\u0e31\u0e1e\u0e17\u0e4c\u0e1c\u0e39\u0e49\u0e14\u0e39\u0e41\u0e25\u0e23\u0e30\u0e1a\u0e1a
+
+error.fail=The request couldn't be processed.
+userRegisterForm.nameThai=Name Thai.
+localeSet=Your locale has been changed.
+#--begin main provider--
+applicationForm.hospital.main.personal=\u0e1a\u0e38\u0e04\u0e04\u0e25
+applicationForm.hospital.main.service=\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23
+applicationForm.hospital.main.edit=\u0e41\u0e01\u0e49\u0e44\u0e02
+
+applicationForm.hospital.contactAdmin=Your Message
+applicationForm.hospital.main.contactAdmin=\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e1c\u0e39\u0e47\u0e14\u0e39\u0e41\u0e25\u0e23\u0e30\u0e1a\u0e1a
+#--end main
+
+#--begin addPersonal
+
+applicationForm.hospital.addPersonal.header=\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1a\u0e38\u0e04\u0e04\u0e25
+applicationForm.hospital.addPersonal.header.edit=\u0e41\u0e01\u0e49\u0e44\u0e02\u0e1a\u0e38\u0e04\u0e04\u0e25
+applicationForm.hospital.addPersonal.firstName=\u0e0a\u0e37\u0e48\u0e2d
+applicationForm.hospital.addPersonal.name=\u0e0a\u0e37\u0e48\u0e2d
+applicationForm.hospital.addPersonal.lastName=\u0e19\u0e32\u0e21\u0e2a\u0e01\u0e38\u0e25
+applicationForm.hospital.addPersonal.title=\u0e04\u0e33\u0e19\u0e33\u0e2b\u0e19\u0e49\u0e32
+applicationForm.hospital.addPersonal.email=\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e4c
+applicationForm.hospital.addPersonal.phone=\u0e42\u0e17\u0e23\u0e28\u0e31\u0e1e\u0e17\u0e4c
+applicationForm.hospital.addPersonal.mobile=\u0e21\u0e37\u0e2d\u0e16\u0e37\u0e2d
+applicationForm.hospital.addPersonal.fax=\u0e41\u0e1f\u0e25\u0e01\u0e4c
+applicationForm.hospital.addPersonal.prority=\u0e2a\u0e16\u0e32\u0e19\u0e30
+applicationForm.hospital.add1=\u0e40\u0e1e\u0e34\u0e48\u0e21
+applicationForm.hospital.addService=\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23
+#--end
+
+#--begin list Personal
+
+applicationForm.hospital.listPersonal.add=\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1a\u0e38\u0e04\u0e04\u0e25
+applicationForm.hospital.listPersonal.header=\u0e23\u0e32\u0e22\u0e0a\u0e37\u0e48\u0e2d\u0e1a\u0e38\u0e04\u0e04\u0e25
+applicationForm.hospital.listPersonal.search=\u0e04\u0e49\u0e19\u0e2b\u0e32
+applicationForm.hospital.listPersonal.addProvider=\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e1a\u0e38\u0e04\u0e04\u0e25
+applicationForm.hospital.listPersonal.no=\u0e44\u0e21\u0e48
+applicationForm.hospital.listPersonal.name=\u0e0a\u0e37\u0e48\u0e2d
+applicationForm.hospital.listPersonal.position=\u0e15\u0e33\u0e41\u0e2b\u0e19\u0e48\u0e07
+applicationForm.hospital.listPersonal.edit=\u0e41\u0e01\u0e49\u0e44\u0e02
+applicationForm.hospital.listPersonal.delete=\u0e25\u0e1a
+applicationForm.hospital.listPersonal.noData=\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25
+applicationForm.hospital.Personal.editHeader=\u0e41\u0e01\u0e49\u0e44\u0e02\u0e1a\u0e38\u0e04\u0e04\u0e25
+applicationForm.hospital.listRegister=\u0e2a\u0e21\u0e31\u0e04\u0e23
+applicationForm.hospital.cancel=\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01
+#--end list Personal
+#--login
+
+applicationForm.hospitalad.login.singUp=\u0e2a\u0e21\u0e31\u0e04\u0e23
+applicationForm.hospitalad.login=\u0e40\u0e02\u0e49\u0e32\u0e23\u0e30\u0e1a\u0e1a
+applicationForm.hospitalad.login.username=\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e02\u0e49\u0e32\u0e23\u0e30\u0e1a\u0e1a
+applicationForm.hospitalad.login.password=\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19
+applicationForm.hospitalad.login.forgot=\u0e25\u0e37\u0e21\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19?
+applicationForm.hospitalad.login.sign=\u0e40\u0e02\u0e49\u0e32\u0e23\u0e30\u0e1a\u0e1a
+errors.login.incorrect=Incorrect sign-in information. Please retry again.
+errors.login.idIsLocked=\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e02\u0e49\u0e32\u0e43\u0e0a\u0e49\u0e42\u0e14\u0e19\u0e25\u0e47\u0e2d\u0e04.
+applicationForm.hospital.add=<h>::</h>
+#--end Login
+#--begin login admin
+applicationForm.hospital.listHospital.header=\u0e23\u0e32\u0e22\u0e0a\u0e37\u0e48\u0e2d\u0e1a\u0e38\u0e04\u0e04\u0e25
+applicationForm.hospital.register=List Register Provider
+
+#menu admin 
+
+applicationForm.admin.menu.register=List Register Provider
+applicationForm.admin.menu.provider=\u0e23\u0e32\u0e22\u0e0a\u0e37\u0e48\u0e2d\u0e1c\u0e39\u0e49\u0e43\u0e2b\u0e49\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23
+applicationForm.admin.menu.personal=\u0e23\u0e32\u0e22\u0e0a\u0e37\u0e48\u0e2d\u0e1a\u0e38\u0e04\u0e04\u0e25
+
+#Provider request
+applicationForm.hospital.listProvidersConnect=List Provider Connect
+applicationForm.hospital.providerRequests=Provider Requests
+applicationForm.hospital.sentProviderRequests=Sent Provider Requests
+
+applicationForm.hospital.changePassword=\u0e40\u0e1b\u0e25\u0e35\u0e48\u0e22\u0e19\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19
+applicationForm.hospital.currentPassword=\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19\u0e1b\u0e31\u0e08\u0e38\u0e1a\u0e31\u0e19:
+applicationForm.hospital.choosePassword=\u0e01\u0e23\u0e2d\u0e01\u0e23\u0e2b\u0e31\u0e2a\u0e44\u0e2b\u0e21: 	
+applicationForm.hospital.rePassword=\u0e01\u0e23\u0e2d\u0e01\u0e23\u0e2b\u0e31\u0e2a\u0e43\u0e2b\u0e21\u0e48\u0e2d\u0e35\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07: 	
+applicationForm.hospitalad.login.sign.admin=\u0e1c\u0e39\u0e49\u0e14\u0e39\u0e41\u0e25\u0e23\u0e30\u0e1a\u0e1a
+applicationForm.hospital=\u0e1c\u0e39\u0e49\u0e43\u0e2b\u0e49\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23
+applicationForm.hospital.listhospital=\u0e23\u0e32\u0e22\u0e0a\u0e37\u0e48\u0e2d\u0e1c\u0e39\u0e49\u0e43\u0e2b\u0e49\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23
+applicationForm.hospital.edit=\u0e41\u0e01\u0e49\u0e44\u0e02
+applicationForm.hospital.view=\u0e14\u0e39
+applicationForm.hospital.lock=\u0e25\u0e47\u0e2d\u0e04/\u0e44\u0e21\u0e48\u0e25\u0e47\u0e2d\u0e04
+applicationForm.hospital.mail=\u0e2a\u0e48\u0e07\u0e40\u0e21\u0e25\u0e4c
+#--end
+#--error
+applicationForm.hospital.error.country=\u0e01\u0e23\u0e38\u0e13\u0e32\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28
+applicationForm.hospital.error.type=\u0e01\u0e23\u0e38\u0e13\u0e29\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17
+applicationForm.hospital.error.city=\u0e01\u0e23\u0e38\u0e13\u0e32\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e40\u0e21\u0e37\u0e2d\u0e07
+applicationForm.error.checkbox=Please Select Checkbox
+errors.position={0} is an invalid position.
+errors.phone2={0} is an invalid phone2.
+errors.phone={0} is an invalid phone.
+errors.phone21=Phone2 is an invalid phone.
+errors.mobile={0} is an invalid mobile.
+errors.fax={0} is an invalid fax.
+errors.phone.fax={0} is an invalid fax.
+errors.phone.zip={0} is an invalid Postal code.
+errors.phone.contactMobile={0}is an invalid Contact-Mobile.
+applicationForm.hospital.error.password=Password is not available.
+applicationForm.hospital.error.newPassword=New Password not available.
+applicationForm.hospital.error.currentPassword=Current Password not available.
+applicationForm.hospital.error.UserName=UserName is not available
+applicationForm.hospital.errorLogin.userName=Please type your username
+applicationForm.hospital.error.Name=Provider Name is not available
+applicationForm.hospital.errorLogin.password=Please type your password
+applicationForm.hospital.personal.error.name=Name is not available.
+errors.noConfirm=\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e22\u0e37\u0e19\u0e22\u0e31\u0e19
+
+
+
+
+
+
+
+
+
+
+
+
+

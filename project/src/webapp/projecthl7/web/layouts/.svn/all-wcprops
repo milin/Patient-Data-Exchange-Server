@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/467/trunk/project/src/webapp/projecthl7/web/layouts
+END
+commonLayoutProviderRegister.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/layouts/commonLayoutProviderRegister.jsp
+END
+commonLayout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/layouts/commonLayout.jsp
+END
+commonLayoutAdminSingIn.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/layouts/commonLayoutAdminSingIn.jsp
+END
+commonLayout1.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/layouts/commonLayout1.jsp
+END
+commonLayout3.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/layouts/commonLayout3.jsp
+END
+commonLayoutforgotPassword.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/layouts/commonLayoutforgotPassword.jsp
+END
+commonLayoutSingIn.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/467/trunk/project/src/webapp/projecthl7/web/layouts/commonLayoutSingIn.jsp
+END
+commonLayoutAdmin.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/layouts/commonLayoutAdmin.jsp
+END
+commonAdminLayout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/layouts/commonAdminLayout.jsp
+END
+commonLayoutProvider.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/466/trunk/project/src/webapp/projecthl7/web/layouts/commonLayoutProvider.jsp
+END

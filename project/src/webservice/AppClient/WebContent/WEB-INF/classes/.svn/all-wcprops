@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/336/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes
+END
+commons-logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/334/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/commons-logging.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/334/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/log4j.properties
+END

@@ -1,0 +1,103 @@
+#   Licensed to the Apache Software Foundation (ASF) under one or more
+#   contributor license agreements.  See the NOTICE file distributed with
+#   this work for additional information regarding copyright ownership.
+#   The ASF licenses this file to You under the Apache License, Version 2.0
+#   (the "License"); you may not use this file except in compliance with
+#   the License.  You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+
+# -- standard errors --
+errors.header=<UL>
+errors.prefix=<br>
+errors.suffix=</br>
+errors.footer=</UL>
+# -- validator --
+errors.invalid={0} is invalid.
+errors.maxlength={0} can not be greater than {1} characters.
+errors.minlength={0} can not be less than {1} characters.
+errors.range={0} is not in the range {1} through {2}.
+errors.required={0} is required.
+errors.byte={0} must be an byte.
+errors.date={0} is not a date.
+errors.double={0} must be an double.
+errors.float={0} must be an float.
+errors.integer={0} must be an integer.
+errors.long={0} must be an long.
+errors.short={0} must be an short.
+errors.creditcard={0} is not a valid credit card number.
+errors.email={0} is an invalid e-mail address.
+# -- other --
+errors.cancel=Operation cancelled.
+errors.detail={0}
+errors.general=The process did not complete. Details should follow.
+errors.token=Request could not be completed. Operation is not in sequence.
+# -- welcome --
+welcome.title=Struts Blank Application
+welcome.heading=Welcome!
+welcome.message=To get started on your own application, copy the struts-blank.war to a new WAR file using the name for your application. Place it in your container's "webapp" folder (or equivalent), and let your container auto-deploy the application. Edit the skeleton configuration files as needed, restart your container, and you are on your way! (You can find the MessageResources.properties file with this message in the /WEB-INF/src folder.)
+
+# -- forms --
+nameForm.firstName=\u0e0a\u0e37\u0e48\u0e2d
+nameForm.lastName=\u0e19\u0e32\u0e21\u0e2a\u0e01\u0e38\u0e25
+nameForm.age=\u0e2d\u0e32\u0e22\u0e38
+nameForm.preferences=\u0e04\u0e27\u0e32\u0e21\u0e0a\u0e2d\u0e1a
+
+addressForm.address=\u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48
+addressForm.district=\u0e40\u0e02\u0e15/\u0e2d\u0e33\u0e40\u0e20\u0e2d
+addressForm.subdistrict=\u0e41\u0e02\u0e27\u0e07\u0e1d/\u0e15\u0e33\u0e1a\u0e25
+addressForm.province=\u0e08\u0e31\u0e07\u0e2b\u0e27\u0e31\u0e14
+addressForm.postalCode=\u0e23\u0e2b\u0e31\u0e2a\u0e44\u0e1b\u0e23\u0e29\u0e13\u0e35\u0e22\u0e4c
+addressForm.postalCodeLength=5
+
+
+applicationForm.header=\u0e2a\u0e21\u0e31\u0e04\u0e23\u0e07\u0e32\u0e19
+localeSet=Locale \u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e44\u0e14\u0e49\u0e16\u0e39\u0e01\u0e40\u0e1b\u0e25\u0e35\u0e48\u0e22\u0e19\u0e40\u0e23\u0e35\u0e22\u0e1a\u0e23\u0e49\u0e2d\u0e22\u0e41\u0e25\u0e49\u0e27.
+#--Begin
+applicationForm.hospital.header=\u0e2a\u0e21\u0e31\u0e04\u0e23
+applicationForm.hospital.hospitalName=\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25	
+applicationForm.hospital.username=\u0e0a\u0e37\u0e48\u0e2d\u0e43\u0e0a\u0e49\u0e2a\u0e21\u0e31\u0e04\u0e23
+applicationForm.hospital.password=\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19
+
+applicationForm.hospital.retypepassword=\u0e01\u0e23\u0e2d\u0e01\u0e2d\u0e35\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07-\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19
+applicationForm.hospital.email=\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e4c
+applicationForm.hospital.tel=\u0e42\u0e17\u0e23\u0e28\u0e31\u0e1e\u0e17\u0e4c\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25
+
+applicationForm.hospital.webSite=\u0e40\u0e27\u0e47\u0e1a\u0e44\u0e0a\u0e15\u0e4c
+applicationForm.hospital.fax=\u0e41\u0e1f\u0e25\u0e01\u0e4c
+applicationForm.hospital.province=\u0e08\u0e31\u0e07\u0e2b\u0e27\u0e31\u0e14
+applicationForm.hospital.district=\u0e2d\u0e33\u0e40\u0e20\u0e2d
+applicationForm.hospital.subdistrict=\u0e15\u0e33\u0e1a\u0e25
+applicationForm.hospital.road=\u0e16\u0e19\u0e19
+applicationForm.hospital.hospitalAddress=\u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48
+applicationForm.hospital.postcode=\u0e23\u0e2b\u0e31\u0e2a\u0e44\u0e1b\u0e23\u0e13\u0e35\u0e22\u0e4c
+
+
+applicationForm.hospitalad.addminname=\u0e0a\u0e37\u0e48\u0e2d\u0e1c\u0e39\u0e49\u0e14\u0e39\u0e41\u0e25\u0e23\u0e30\u0e1a\u0e1a
+applicationForm.hospitalad.adminSurname=\u0e19\u0e32\u0e21\u0e2a\u0e01\u0e38\u0e25\u0e1c\u0e39\u0e49\u0e14\u0e39\u0e41\u0e25\u0e23\u0e30\u0e1a\u0e1a
+applicationForm.hospitalad.email=\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e4c\u0e1c\u0e39\u0e49\u0e14\u0e39\u0e41\u0e25\u0e23\u0e30\u0e1a\u0e1a
+applicationForm.hospitalad.tel=\u0e40\u0e1a\u0e2d\u0e23\u0e4c\u0e42\u0e17\u0e23\u0e1c\u0e39\u0e49\u0e14\u0e39\u0e41\u0e25\u0e23\u0e30\u0e1a\u0e1a
+applicationForm.sumbit=\u0e15\u0e01\u0e25\u0e07
+applicationForm.reset=\u0e25\u0e49\u0e32\u0e07
+#--error
+applicationForm.hospital.error.password=\u0e01\u0e23\u0e2d\u0e01\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19\u0e44\u0e21\u0e48\u0e15\u0e23\u0e07\u0e01\u0e31\u0e19
+applicationForm.hospital.error.UserName=\u0e0a\u0e37\u0e48\u0e2d\u0e25\u0e47\u0e2d\u0e04\u0e2d\u0e34\u0e19\u0e0b\u0e49\u0e33
+applicationForm.hospital.errorLogin.userName=\u0e01\u0e23\u0e38\u0e13\u0e32\u0e1e\u0e34\u0e21\u0e1e\u0e4c\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e02\u0e49\u0e32\u0e43\u0e0a\u0e49
+applicationForm.hospital.errorLogin.password=\u0e01\u0e23\u0e38\u0e13\u0e32\u0e1e\u0e34\u0e21\u0e1e\u0e4c\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19 
+errors.login.incorrect=Incorrect sign-in information. Please retry again.
+errors.login.idIsLocked=Username 
+applicationForm.hospital.add=<H>::</H>
+#--login
+applicationForm.hospitalad.login=\u0e25\u0e47\u0e2d\u0e04\u0e2d\u0e34\u0e19
+applicationForm.hospitalad.login.username=\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e02\u0e49\u0e32\u0e43\u0e0a\u0e49
+applicationForm.hospitalad.login.password=\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19
+applicationForm.hospitalad.login.forgot=\u0e25\u0e37\u0e21\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19?
+applicationForm.hospitalad.login.sign=\u0e25\u0e07\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e02\u0e49\u0e32\u0e43\u0e0a\u0e49
+applicationForm.hospitalad.login.singUp=\u0e2a\u0e21\u0e31\u0e04\u0e23
+applicationForm.hospitalad.login.forgot=\u0e25\u0e37\u0e21\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19

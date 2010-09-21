@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.example.model.ProviderStaff" table="ProviderStaff">
+        <id name="id">
+        	<generator class="native"/>
+        </id>
+        <property name="username"/>
+        <property name="password"/>
+       	<property name="contactName"/>
+		<property name="contactMobile"/>
+        <property name="contactEmail"/>	
+        <property name="createdOn"/>
+        <property name="status"/>
+        <property name="master"/>
+          <many-to-one name="provider"
+			column="providerId"
+			class="com.example.model.Provider"/>
+       	<set name="personals" order-by="createdOn">
+	        <key column="providerStaffId" />
+	        <one-to-many class="com.example.model.Personal"/>
+	    </set>
+	    <set name="onlines" order-by="createdOn">
+	        <key column="providerStaffId" />
+	        <one-to-many class="com.example.model.Online"/>
+	    </set>
+    </class>
+</hibernate-mapping>

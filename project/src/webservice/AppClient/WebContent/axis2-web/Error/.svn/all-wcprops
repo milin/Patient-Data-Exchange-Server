@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/337/trunk/project/src/webservice/AppClient/WebContent/axis2-web/Error
+END
+GenError.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/337/trunk/project/src/webservice/AppClient/WebContent/axis2-web/Error/GenError.html
+END
+error500.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/337/trunk/project/src/webservice/AppClient/WebContent/axis2-web/Error/error500.jsp
+END
+error404.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/337/trunk/project/src/webservice/AppClient/WebContent/axis2-web/Error/error404.jsp
+END
+AuthError.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/337/trunk/project/src/webservice/AppClient/WebContent/axis2-web/Error/AuthError.html
+END

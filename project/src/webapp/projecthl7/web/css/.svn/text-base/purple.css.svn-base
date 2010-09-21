@@ -1,0 +1,472 @@
+/*	
+	adminTheme by Justine Ratajczak
+	for ThemeForest http://themeforest.net
+	
+	Colors used:
+	white:			#ffffff
+	dark gray:		#3c3f36
+	light gray:		#5b5e56
+	dark beige:		#dcd9c6
+	light beige:	#ebe9dc
+	v.light beige:	#f4f2e9
+	purple:			#54389f
+	
+*/
+
+.clear {clear: both;}
+
+body {
+	background: #ffffff;
+	font: 12px/18px "Lucida Grande", "Lucida Sans", sans-serif;
+	color: #5b5e56;
+	}
+	
+a, a:visited, a:active {
+	color: #54389f;
+	text-decoration: none;
+	}
+
+a:hover {
+	background-color: #54389f;
+	color: #f4f2e9;
+	}
+	
+
+/* ------ HEADER START ------ */
+
+#header {
+	width: 100%;
+	background: #ffffff url(../images/body-bg.jpg) top left repeat-x;
+	height: 84px;
+	}
+
+h1 {
+	background: url('../images/header-logo-purple.jpg') no-repeat top left;
+	text-indent: -9999px;
+	height: 84px; width: 335px;
+	float: left;
+	}
+	
+#login {
+	float: right;
+	color: #ebe9dc;
+	margin: 20px 50px 0 0;
+	padding: 0 0 0 25px;
+	height: 24px;
+	background: url(../images/icon-user-purple.png) 0 center no-repeat;
+	}
+
+#login p {
+	padding-top: 3px;
+	vertical-align: middle;
+	}
+	
+/* ------ HEADER END ------ */
+
+
+	
+/* ------ MAIN NAVIGATION START ------ */
+
+#navi {
+	width: 100%;
+	background: #ffffff url('../images/menu-bg-purple.jpg') top left repeat;
+	}
+
+#navtabs { 
+	margin-left: 65px;
+	height: 39px; 
+    font-size: 15px; 
+    color: #ffffff;
+    text-transform: uppercase; 
+	} 
+
+#navtabs li { 
+    float: left; 
+    margin-right: 20px;
+    line-height: 39px;
+	} 
+
+#navtabs li a { 
+    text-decoration: none;
+    color: #ffffff;
+    height: 39px;
+    padding: 3px;
+	}
+
+#navtabs li a:hover {
+	background: #f4f2e9;
+	color: #5b5e56;
+	}
+
+#navtabs li#current a { 
+    background: url(../images/menu-tab-bg.jpg) bottom left repeat-x;
+    color: #5b5e56; 
+    display: block;
+    padding: 0px 8px;
+	}
+
+/* ------ MAIN NAVIGATION END ------ */
+
+
+
+/* ------ SUB NAVIGATION START ------ */
+
+#subnavi {
+	width: 100%;
+	background: #ffffff url('../images/submenu-bg.jpg') top left repeat;
+	}
+
+#subnav { 
+	margin-left: 67px;
+	height: 34px; 
+    font-size: 12px; 
+    color: #5b5e56;
+    text-transform: uppercase; 
+	} 
+
+#subnav li { 
+    float: left; 
+    margin-right: 20px;
+    line-height: 34px;
+	} 
+
+#subnav li a { 
+    text-decoration: none;
+    color: #5b5e56;
+    height: 25px;
+    padding: 2px;
+	}
+
+#subnav li a:hover {
+	background: #f4f2e9;
+	color: #5b5e56;
+	border-bottom: #5b5e56 1px solid;
+	}
+ 
+#subnav li#sub-current a { 
+    color: #5b5e56; 
+    border-bottom: #5b5e56 1px solid;
+   	}
+   	
+#subnav li#sub-current a:hover {
+	background: #f4f2e9;
+	color: #5b5e56;
+	border-bottom: #5b5e56 1px solid;
+	}
+
+/* ------ SUB NAVIGATION END ------ */
+
+
+
+/* ------ MAIN CONTENT START ------ */
+
+#content {
+	width: 60%;
+	margin: 40px 0 0 65px;
+	float: left;
+	}
+
+#content h2 {
+	font-size: 24px;
+	font-weight: normal;
+	color: #54389f;
+	margin-bottom: 20px;
+	}
+	
+#content p {
+	margin-bottom: 18px;
+	}
+
+#content h3 {
+	font-size: 18px;
+	font-weight: normal;
+	color: #54389f;
+	margin-bottom: 20px;
+	}
+	
+#content h4 {
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #54389f;
+	margin-bottom: 20px;
+	}
+	
+	/* ALERTS STYLES */
+	
+.alert-ok {
+	background: #e6ebc2 url(../images/icon-ok.gif) 10px center no-repeat;
+	display: block;
+	border: 1px solid #8da330;
+	padding: 10px 10px 10px 45px;
+	width: 75%;
+	}
+	
+.alert-wrong {
+	background: #eddbd5 url(../images/icon-wrong.gif) 10px center no-repeat;
+	display: block;
+	border: 1px solid #c05843;
+	padding: 10px 10px 10px 45px;
+	width: 75%;
+	}
+
+.alert-tip {
+	background: #f3ebd4 url(../images/icon-alert.gif) 10px center no-repeat;
+	display: block;
+	border: 1px solid #dc9b58;
+	padding: 10px 10px 10px 45px;
+	width: 75%;
+	}
+	
+code {
+	font: 12px/16px "Courier";
+	}
+	
+.coding {
+	width: 85%;
+	padding: 10px 10px 10px 30px;
+	border: 1px solid #dcd9c6;
+	margin-bottom: 30px;
+	}
+
+/* ------ MAIN CONTENT END ------ */
+
+
+/* ------ SIDEBAR START ------ */
+
+#sidebar {
+	float: right;
+	margin: 40px 65px 0 0;
+	background: #fff url('../images/sidebar-header.jpg') top left repeat-x;
+	width: 22%;
+	}
+
+#sidebar h5 {
+	height: 36px;
+	line-height: 36px;
+	padding-left: 15px;
+	color: #54389f;
+	text-transform: uppercase;
+	font-size: 15px;
+	}
+
+#sidebar-nav {
+	border: 1px solid #ebe9dc;
+	border-bottom: none;
+	border-top: none;
+	}
+	
+#sidebar-nav li {
+	border-bottom: 1px solid #ebe9dc;
+	}
+	
+#sidebar-nav li a {
+	color: #5b5e56;
+	display: block;
+	background: url('../images/bullet-purple.gif') 10px center no-repeat;
+	padding: 5px 5px 5px 25px;
+	}
+	
+#sidebar-nav li a:hover {
+	background-color: #f4f2e9;
+	}
+	
+#sidebar-nav li#side-current {
+	background-color: #f4f2e9;
+	}
+
+/* ------ SIDEBAR END ------ */
+
+
+/* ------ TABLE STYLES START ------ */
+
+table {
+	border: 1px solid #dcd9c6;
+	margin-bottom: 20px;
+	}
+	
+th {
+	background: #54389f url(../images/menu-bg-purple.jpg) top left repeat-x;
+	border: 1px solid #dcd9c6;
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #ffffff;
+	}
+
+tr {
+	border: 1px solid #dcd9c6;
+	padding: 5px;
+	}
+	
+tr.alt {
+	background: #ffffff url(../images/tralt-bg.jpg) top left repeat-x;
+	}
+	
+tr:hover {
+	background: #ebe9dc none;
+	}
+	
+td {
+	border: 1px solid #dcd9c6;
+	padding: 5px;
+	text-align: center;
+	}
+	
+td.action {
+	text-align: center;
+	}
+	
+/* CALENDAR */
+
+.today {
+	background: url(../images/tralt-bg.jpg) top left repeat-x;
+	font-weight: bold;
+	}	
+	
+#calendar {
+	margin: 30px 0 15px;
+	text-align: center;
+	}
+	
+#calendar table {
+	margin: 0 auto;
+	}
+
+#calendar caption {
+	font-weight: bold;
+	}
+
+#calendar tr:hover {
+	background: none;
+	}
+	
+#calendar tr td:hover {
+	background-color: #f4f2e9;
+	}
+	
+/* ------ TABLE STYLES END ------ */
+
+
+
+/* ------ FORM STYLES END ------ */
+
+form {}
+
+.inputname {
+	display: block;
+	margin-bottom: 5px;
+	}
+
+.formhelp {
+	font-size: 10px;
+	font-style: italic;
+	color: #5b5e56; 
+	}
+
+.textfield, textarea {
+	border: 1px solid #dcd9c6;
+	background: #ffffff url(../images/tralt-bg.jpg) top left repeat-x;
+	font: 12px/18px "Lucida Grande", "Lucida Sans", sans-serif;
+	color: #5b5e56;
+	display: block;
+	}
+	
+.small {
+	width: 200px;
+	}
+
+.medium {
+	width: 400px;
+	}
+
+.large {
+	width: 600px;
+	}
+	
+.button {
+	border: 1px solid #dcd9c6;
+	background-color: #ffffff;
+	color: #5b5e56;
+	padding: 5px 10px;
+	}
+	
+.button:hover {
+	border-color: #54389f;
+	color: #54389f;
+	}
+	
+.filefield, select, option {
+	color: #5b5e56;
+	margin-bottom: 5px;
+	margin-right: 40px;
+	}
+	
+select {
+	border: 1px solid #dcd9c6;
+	}
+
+
+/* ------ FORM STYLES END ------ */
+
+
+
+/* ------ LOGIN FORM START ------ */
+
+#loginarea {
+	margin: 40px auto;
+	width: 40%;
+	border: 1px solid #54389f;
+	}
+
+#login-welcome {
+	background: #f4f2e9;
+	border-bottom: 1px solid #dcd9c6;
+	color: #54389f;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 10px;
+	}
+	
+#loginform {
+	padding: 20px;
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	}
+	
+#loginform input.loginfield {
+	border: 1px solid #dcd9c6;
+	background: #ffffff url(../images/tralt-bg.jpg) top left repeat-x;
+	font: 16px/18px "Lucida Grande", "Lucida Sans", sans-serif;
+	color: #5b5e56;
+	display: block;
+	height: 30px;
+	width: 100%;
+	margin-bottom: 20px;
+	}
+	
+#loginform .loginbutton {
+	border: 1px solid #dcd9c6;
+	background-color: #ffffff;
+	color: #5b5e56;
+	padding: 5px 10px;
+	font-size: 16px;
+	}
+
+#loginform .loginbutton:hover {
+	border: 1px solid #54389f;
+	color: #54389f;
+	}
+
+
+
+
+
+
+
+
+
+
+

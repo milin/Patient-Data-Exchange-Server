@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#chooseDateForm li {
+	list-style: none;
+	padding: 5px;
+	clear: both;
+}
+select {
+	width: 100px;
+}
+
+input.dp-applied {
+	width: 140px;
+	float: left;
+}
+
+a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(calendar.png) no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+
+#calendar-me {
+	margin: 20px;
+}
+pre.sourcecode {
+	border: 2px dashed #ccc;
+	padding: 10px;
+	width: 734px;
+	overflow: auto;
+	margin: 0 0 20px;
+}

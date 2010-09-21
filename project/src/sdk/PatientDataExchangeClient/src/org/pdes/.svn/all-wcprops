@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/160/trunk/project/src/sdk/PatientDataExchangeClient/src/org/pdes
+END
+PatientDataExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/160/trunk/project/src/sdk/PatientDataExchangeClient/src/org/pdes/PatientDataExchange.java
+END
+LoginWS.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/134/trunk/project/src/sdk/PatientDataExchangeClient/src/org/pdes/LoginWS.java
+END
+PatientDataExchangeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/160/trunk/project/src/sdk/PatientDataExchangeClient/src/org/pdes/PatientDataExchangeService.java
+END
+LoginWSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/134/trunk/project/src/sdk/PatientDataExchangeClient/src/org/pdes/LoginWSService.java
+END
+PatientDataExchangeProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/160/trunk/project/src/sdk/PatientDataExchangeClient/src/org/pdes/PatientDataExchangeProxy.java
+END
+LoginWSProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/134/trunk/project/src/sdk/PatientDataExchangeClient/src/org/pdes/LoginWSProxy.java
+END
+PatientDataExchangeServiceLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/160/trunk/project/src/sdk/PatientDataExchangeClient/src/org/pdes/PatientDataExchangeServiceLocator.java
+END
+LoginWSServiceLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/134/trunk/project/src/sdk/PatientDataExchangeClient/src/org/pdes/LoginWSServiceLocator.java
+END
+PatientDataExchangeSoapBindingStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/160/trunk/project/src/sdk/PatientDataExchangeClient/src/org/pdes/PatientDataExchangeSoapBindingStub.java
+END
+LoginWSSoapBindingStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/134/trunk/project/src/sdk/PatientDataExchangeClient/src/org/pdes/LoginWSSoapBindingStub.java
+END

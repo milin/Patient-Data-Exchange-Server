@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/527/trunk/project/src/webservice/WebClient
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/524/trunk/project/src/webservice/WebClient/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/524/trunk/project/src/webservice/WebClient/.project
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/524/trunk/project/src/webservice/WebClient/build.xml
+END

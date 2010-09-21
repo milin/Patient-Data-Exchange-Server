@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/common
+END
+menu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/common/menu.jsp
+END
+menuService.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/common/menuService.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/common/header.jsp
+END
+header.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/common/header.jpg
+END
+footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/common/footer.jsp
+END

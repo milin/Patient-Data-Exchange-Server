@@ -1,0 +1,16 @@
+Installation Manual
+-------------------
+1. 	Configure database connection.
+   	Default Database Name : projecthl7
+   	Default Username : projecthl7
+   	Default Password : 1q2w3e4r
+
+2. 	Build project with ant.
+	$ ant  build.xml
+
+3. 	Deploy PatientDataExchange.war in dist directory to your tomcat server.
+
+4. 	List of Web Services
+   	Go to http://<server>/PatientDataExchange/axis2-web
+   	Go to Services
+   	Go to Patient Data Exchange you will see the WSDL.

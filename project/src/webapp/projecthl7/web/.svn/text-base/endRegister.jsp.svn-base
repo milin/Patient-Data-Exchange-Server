@@ -1,0 +1,3 @@
+ <%@ page contentType="text/html; charset=UTF-8" %> 
+Please wait the confirmation Email...
+<meta http-equiv="refresh" content="2;url=signIn.jsp">

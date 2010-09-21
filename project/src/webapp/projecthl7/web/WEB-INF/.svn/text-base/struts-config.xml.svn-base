@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+   
+         http://www.apache.org/licenses/LICENSE-2.0
+   
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<!--
+     This is a blank Struts configuration file with an example
+     welcome action/page and other commented sample elements.
+
+     Struts Validator is configured using the factory defaults
+     and is ready-to-use.
+
+     NOTE: If you have a generator tool to create the corresponding Java classes
+     for you, you could include the details in the "form-bean" declarations.
+     Otherwise, you would only define the "form-bean" element itself, with the
+     corresponding "name" and "type" attributes, as shown here.
+-->
+
+
+<struts-config>
+
+
+<!-- ================================================ Form Bean Definitions -->
+
+    <form-beans>
+     	<form-bean
+            name="providerEditForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="www"
+                type="java.lang.String"/>
+           <form-property
+                name="type"
+                type="java.lang.String"/>
+            <form-property
+                name="phone1"
+                type="java.lang.String"/>
+            <form-property
+                name="phone2"
+                type="java.lang.String"/>
+            <form-property
+                name="fax"
+                type="java.lang.String"/>
+          	<form-property
+                name="country"
+                type="java.lang.String"/>  
+            <form-property
+                name="address"
+                type="java.lang.String"/>
+            <form-property
+                name="zip"
+                type="java.lang.String"/>   
+            <form-property
+                name="contactName"
+                type="java.lang.String"/>
+            <form-property
+                name="contactSurName"
+                type="java.lang.String"/>
+            <form-property
+                name="contactMobile"
+                type="java.lang.String"/>
+            <form-property
+                name="contactEmail"
+                type="java.lang.String"/>  
+       </form-bean> 
+       <form-bean
+            name="providerRegisterForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="name"
+                type="java.lang.String"/>
+            <form-property
+                name="username"
+                type="java.lang.String"/> 
+            <form-property
+                name="password"
+                type="java.lang.String"/>   
+            <form-property
+                name="www"
+                type="java.lang.String"/>
+            <form-property
+                name="type"
+                type="java.lang.String"/>
+            <form-property
+                name="phone1"
+                type="java.lang.String"/>
+            <form-property
+                name="phone2"
+                type="java.lang.String"/>
+            <form-property
+                name="fax"
+                type="java.lang.String"/>
+            <form-property
+                name="address"
+                type="java.lang.String"/>
+            <form-property
+                name="zip"
+                type="java.lang.String"/>   
+            <form-property
+                name="contactName"
+                type="java.lang.String"/>
+            <form-property
+                name="contactSurName"
+                type="java.lang.String"/>
+            <form-property
+                name="contactMobile"
+                type="java.lang.String"/>
+            <form-property
+                name="contactEmail"
+                type="java.lang.String"/>     
+       </form-bean> 
+   		<form-bean
+            name="providerStaffForm"
+            type="org.apache.struts.validator.DynaValidatorForm"> 
+             <form-property
+                name="username"
+                type="java.lang.String"/> 
+            <form-property
+                name="password"
+                type="java.lang.String"/>  
+            <form-property
+                name="contactName"
+                type="java.lang.String"/>
+            <form-property
+                name="contactSurName"
+                type="java.lang.String"/>
+            <form-property
+                name="contactMobile"
+                type="java.lang.String"/>
+            <form-property
+                name="contactEmail"
+                type="java.lang.String"/>     
+       </form-bean> 
+       
+    
+       <!-- Begin personalRegister page -->  
+       <form-bean
+            name="personalRegisterForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+             <form-property
+                name="title"
+                type="java.lang.String"/>
+            <form-property
+                name="firstName"
+                type="java.lang.String"/>
+            <form-property
+                name="lastName"
+                type="java.lang.String"/>
+            <form-property
+                name="email"
+                type="java.lang.String"/>
+            <form-property
+                name="phone1"
+                type="java.lang.String"/>
+           <form-property
+                name="phone2"
+                type="java.lang.String"/>
+            <form-property
+                name="mobile"
+                type="java.lang.String"/>
+            <form-property
+                name="fax"
+                type="java.lang.String"/>
+     	</form-bean>  
+     
+     	 	
+       <form-bean
+            name="personalEditForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+             <form-property
+                name="title"
+                type="java.lang.String"/>
+            <form-property
+                name="firstName"
+                type="java.lang.String"/>
+            <form-property
+                name="lastName"
+                type="java.lang.String"/>
+            <form-property
+                name="email"
+                type="java.lang.String"/>
+            <form-property
+                name="phone1"
+                type="java.lang.String"/>
+           <form-property
+                name="phone2"
+                type="java.lang.String"/>
+            <form-property
+                name="mobile"
+                type="java.lang.String"/>
+            <form-property
+                name="fax"
+                type="java.lang.String"/>    
+     	</form-bean>
+       <!-- End personalRegister page -->
+       <!-- begin login -->
+       	<form-bean
+            name="adminLoginForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="username"
+                type="java.lang.String"/>
+            <form-property
+                name="password"
+                type="java.lang.String"/>
+		</form-bean>
+		<form-bean
+            name="changePasswordForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="passwordOld"
+                type="java.lang.String"/>
+            <form-property
+                name="passwordNew1"
+                type="java.lang.String"/>
+             <form-property
+                name="passwordNew2"
+                type="java.lang.String"/>
+		</form-bean>
+		
+    </form-beans>
+
+
+<!-- ========================================= Global Exception Definitions -->
+
+    <global-exceptions>
+        <!-- sample exception handler
+        <exception
+            key="expired.password"
+            type="app.ExpiredPasswordException"
+            path="/changePassword.jsp"/>
+        end sample -->
+    </global-exceptions>
+
+
+<!-- =========================================== Global Forward Definitions -->
+
+    <global-forwards>
+        <!-- Default forward to "Welcome" action -->
+        <!-- Demonstrates using index.jsp to forward -->
+        <forward
+            name="welcome"
+            path="/Welcome.st"/>
+    </global-forwards>
+
+
+<!-- =========================================== Action Mapping Definitions -->
+
+    <action-mappings>
+            <!-- Default "Welcome" action -->
+            <!-- Forwards to Welcome.jsp -->
+           
+<!--
+		 <action
+            path="/register"
+            type="com.example.action.RegisterAction"
+            >
+            <forward name="success" path="/register.jsp"/>
+        </action>    
+			start-->
+	 
+        <action 
+        	path="/providerLogin"
+        	type="com.example.action.LoginProviderAction"
+        	scope="request"
+        	>
+        	<forward name="success"	 path="/mainProvider.jsp"/>
+        	<forward name="fail" path="/signIn.jsp"/>
+        </action>
+        <action 
+        	path="/singUp"
+        	type="com.example.action.SingUpAction"
+        	>
+        	<forward name="success" path="/register2.jsp"/>
+        </action>
+        <action 
+        	path="/listCountryEdit"
+        	type="com.example.action.ListCountryEditAction"
+        	>
+        	<forward name="success" path="/countryListEdit.jsp"/>
+        </action>
+         <action 
+        	path="/listCountryName"
+        	type="com.example.action.ListCountryNameAction"
+        	>
+        	<forward name="success" path="/countryNameList.jsp"/>
+        </action>
+         <action
+            path="/ajaxListCityId"
+            type="com.example.ajax.ListCityIdAction"
+            >
+            <forward name="ajaxResponse" path="/ajaxCityResponse.jsp"/>
+        </action>
+        <action
+            path="/addProvider"
+            type="com.example.action.AddProviderAction"
+            name="providerRegisterForm"
+            scope="request"
+            input="/register.jsp"
+            validate="true" 
+            >
+            <forward name="success" path="/endRegister.jsp"/>
+        </action>
+        <action
+            path="/getProvider"			 
+            type="com.example.action.GetProviderAction"
+            >
+            <forward name="success" path="/providerEdit.jsp"/>
+        </action>
+        <action
+            path="/editProvider"
+            type="com.example.action.EditProviderAction"
+            name="providerEditForm"
+            scope="request"
+            input="/providerEdit.jsp"
+            validate="true" 
+            >
+            <forward name="success" path="/lookProvider.do"/>
+        </action>
+         <action
+            path="/lookProvider"
+            type="com.example.action.LookProviderAction"
+            >
+            <forward name="success" path="/providerLook.jsp"/>
+        </action>
+         <action
+            path="/addPersonal"
+            type="com.example.action.AddPersonalAction"
+            name="personalRegisterForm"
+            scope="request"
+            input="/personalAdd.jsp"
+            validate="true" 
+            >
+            <forward name="success" path="/listPersonal.do"/>
+        </action>
+        <action
+            path="/listPosition"
+            type="com.example.action.ListPositionAction"
+            >
+            <forward name="success" path="/positionList.jsp"/>
+        </action>
+        <action
+            path="/listPersonal"
+            type="com.example.action.ListPersonalAction"
+            >
+            <forward name="success" path="/personalList.jsp"/>
+        </action>
+        <action 
+        	path="/getPersonal"
+ 			type="com.example.action.GetPersonalAction"
+ 			>
+ 			<forward name="successGet" path="/personalGet.jsp"/>
+ 			<forward name="successGetEdit" path="/personalGetEdit.jsp"/>
+ 		</action>
+ 		<action
+            path="/editPersonal"
+            type="com.example.action.EditPersonalAction"
+            name="personalEditForm"
+            scope="request"
+            input="/personalGetEdit.jsp"
+            validate="true" 
+            >
+            <forward name="success" path="/listPersonal.do"/>
+        </action>
+        <action
+            path="/lockPersonal"
+            type="com.example.action.LockPersonalAction"
+            >
+            <forward name="success" path="/listPersonal.do"/>
+        </action>
+        <action 
+ 			path="/listProviderRegisterService"
+ 			type="com.example.action.ListProviderRegisterServiceAction"
+ 			>
+ 			<forward name="success" path="/providerRegisterServiceList.jsp"/>	
+ 		</action>
+ 		<action 	
+ 			path="/listProviderService"
+ 			type="com.example.action.ListProviderServiceAction"
+ 			>
+ 			<forward name="success" path="/providerServiceList.jsp"/>	
+ 		</action>
+ 		<action 
+ 			path="/connectProviderService"
+ 			type="com.example.action.ConnectProviderServiceAction"
+ 			>
+ 			<forward name="success" path="/listProviderService.do"/>	
+ 		</action>
+        <action
+            path="/confirmEmailProvider"
+            type="com.example.action.ConfirmEmailProviderAction"
+            >
+            <forward name="success" path="/confirmEmail.jsp"/>
+            <forward name="fail" path="/signIn.jsp"/>
+        </action>
+        
+ 		<action
+ 			path="/adminLogin"
+ 			type="com.example.action.AdminLoginAction"
+ 			name="adminLoginForm"
+            scope="request"
+            input="/adminLogin.jsp"
+            validate="true" 
+            >
+            <forward name="fail" path="/adminLogin.jsp"/>
+            <forward name="success" path="/adminMain.jsp"/>
+        </action>
+        
+         <action 
+        	path="/listAdminProvider"
+ 			type="com.example.action.ListAdminProviderAction"
+ 			>
+ 			<forward name="success" path="/adminProviderList.jsp"/>
+ 		</action>
+ 		 <action 
+        	path="/getAdminProvider"
+ 			type="com.example.action.GetAdminProviderAction"
+ 			>
+ 			<forward name="successGet" path="/adminProviderGet.jsp"/>
+ 			<forward name="successGetEdit" path="/adminProviderEdit.jsp"/>
+ 		</action>
+ 		<action 
+        	path="/editAdminProvider"
+        	type="com.example.action.EditAdminProviderAction"
+ 			name="providerEditForm"
+            scope="request"
+            input="/adminProviderEdit.jsp"
+            validate="true" 
+ 			>
+ 			<forward name="success1" path="/listAdminProviderRegister.do"/>
+ 			<forward name="success2" path="/listAdminProvider.do"/>
+ 		</action>
+ 		<action 
+        	path="/addProviderStaff"
+        	type="com.example.action.AddProviderStaffAction"
+ 			name="providerStaffForm"
+            scope="request"
+            input="/addProviderStaff.jsp"
+            validate="true" 
+ 			>
+ 			 <forward name="success" path="/mainProvider.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/lockAdminProvider"
+ 			type="com.example.action.LockAdminProviderAction"
+ 			>
+ 			<forward name="success" path="/listAdminProvider.do"/>
+ 		</action>
+ 		<action 
+        	path="/listAdminPersonal"
+ 			type="com.example.action.ListAdminPersonalAction"
+ 			>
+ 			<forward name="success" path="/adminPersonalList.jsp"/>
+ 		</action>
+ 		<action 
+        	path="/getAdminPersonal"
+ 			type="com.example.action.GetAdminPersonalAction"
+ 			>
+ 			<forward name="successGet" path="/adminPersonalGet.jsp"/>
+ 			<forward name="successGetEdit" path="/adminPersonalGetEdit.jsp"/>
+ 		</action>
+ 		<action 
+        	path="/editAdminPersonal"
+ 			type="com.example.action.EditAdminPersonalAction"
+ 			name="personalEditForm"
+            scope="request"
+            input="/adminPersonalGetEdit.jsp"
+            validate="true" 
+ 			>
+ 			<forward name="success" path="/listAdminPersonal.do"/>
+ 		</action>
+ 		<action 
+        	path="/deleteAdminPersonal"
+ 			type="com.example.action.DeleteAdminPersonalAction"
+ 			>
+ 			<forward name="success" path="/listAdminPersonal.do"/>
+ 		</action>
+ 		<action 
+        	path="/lockAdminPersonal"
+ 			type="com.example.action.LockAdminPersonalAction"
+ 			>
+ 			<forward name="success" path="/listAdminPersonal.do"/>
+ 		</action>
+ 		<action
+ 			path="/listCountry"
+ 			type="com.example.action.ListCountryAction"
+ 			>
+ 			<forward name="success" path="/countryList.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/listAdminregister"
+ 			type="com.example.action.ListAdminregister"
+ 			>
+ 			<forward name="success" path="/countryList.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/signOutProvider"
+ 			type="com.example.action.signOutProviderAction"
+ 			>
+ 			<forward name="success" path="/signIn.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/logOutAdmin"
+ 			type="com.example.action.logOutAdminAction"
+ 			>
+ 			<forward name="success" path="/adminLogin.jsp"/>
+ 		</action>
+ 		
+ 		<action 
+ 			path="/listAdminProviderRegister"
+ 			type="com.example.action.ListAdminProviderRegisterAction"
+ 			>
+ 			<forward name="success" path="/adminProviderRegisterList.jsp"/>
+ 		</action>
+ 		<action 
+ 			path="/SendMailTest"
+ 			type="com.example.action.SendMailTestAction"
+ 			>
+ 			<forward name="success" path="/adminProviderRegisterList.jsp"/>
+ 		</action>
+ 		<action 
+ 			path="/SendMail"
+ 			type="com.example.model.SendMail"
+ 			>
+ 			<forward name="success" path="/adminProviderRegisterList.jsp"/>
+ 		</action>
+ 		<action 
+ 			path="/TestSend"
+ 			type="com.example.action.TestSendAction"
+ 			>
+ 			<forward name="success" path="/signIn.jsp"/>
+ 		</action>
+ 		<action 
+ 			path="/adminSendMail"
+ 			type="com.example.action.AdminSendMailAction"
+ 			input="/listAdminProviderRegister.do?sidebar=1"
+ 			>
+ 			<forward name="success" path="/listAdminProviderRegister.do"/>
+ 		</action>
+ 		<action 
+ 			path="/forgotPassword"
+ 			type="com.example.action.ForGotPasswordAction"
+ 			>
+ 			<forward name="success" path="/endForGot.jsp"/>
+ 			<forward name="fail" path="/forgotPassword.jsp"/>
+ 			
+ 		</action>
+ 		<action 
+ 			path="/addProviderService"
+ 			type="com.example.action.AddProviderServiceAction"
+ 			>
+ 			<forward name="success" path="/listProviderRegisterService.do"/>
+ 			
+ 		</action>
+ 		<action 
+ 			path="/sentProviderRequest"
+ 			type="com.example.action.SentProviderRequestAction"
+ 			>
+ 			<forward name="success" path="/providerRequestSent.jsp"/>
+ 			
+ 		</action>
+ 		<action
+ 			path="/displayProviderRequests"
+ 			type="com.example.action.DisplayProviderRequestsAction"
+ 			>
+ 			<forward name="success" path="/providerRequestsDisplay.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/addProviderRequest"
+ 			type="com.example.action.AddProviderRequestAction"
+ 			>
+ 			<forward name="success" path="/displayProviderRequests.do"/>
+ 		</action>
+ 		
+ 		<action
+ 			path="/citySelect"
+ 			type="com.example.action.CitySelectAction"
+ 			>
+ 			<forward name="success" path="/citySelect.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/countProviderRequests"
+ 			type="com.example.action.CountProviderRequestsAction"
+ 			>
+ 			<forward name="success" path="/countProviderRequests.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/confirmAddProvider"
+ 			type="com.example.action.ConfirmAddProviderAction"
+ 			>
+ 			<forward name="success" path="/confirmAddProvider.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/addAdminProvider"
+ 			type="com.example.action.admin.AddAdminProviderAction"
+ 			name="providerRegisterForm"
+            scope="request"
+            input="/adminProviderAdd.jsp"
+            validate="true" 
+ 			>
+ 			<forward name="success" path="/listAdminProviderRegister.do"/>
+ 		</action>
+ 		<action
+ 			path="/confirmEmailPersonal"
+ 			type="com.example.action.ConfirmEmailPersonalAction"
+ 			>
+ 			<forward name="success" path="/confirmEmailPersonal.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/setLocale"
+ 			type="com.example.action.SetLocaleAction"
+ 			>
+ 			<forward name="success" path="/signIn.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/subMenu"
+ 			type="com.example.action.SubMenuAction"
+ 			>
+ 			<forward name="success" path="/ajaxResponse.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/selectSubMenu"
+ 			type="com.example.action.selectSubMenuAction"
+ 			>
+ 			<forward name="success" path="/selectSubMenu.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/changePassword"
+ 			type="com.example.action.changePasswordAction"
+ 			>
+ 			<forward name="success" path="/changePasswordProvider.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/editPassword"
+ 			type="com.example.action.EditPasswordAction"
+ 			name="changePasswordForm"
+            scope="request"
+            input="/changePasswordProvider.jsp"
+            validate="true"
+ 			>
+ 			<forward name="success" path="/mainProvider.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/contactAdmin"
+ 			type="com.example.action.ContactAdminAction"
+ 			>
+ 			<forward name="success" path="/mainProvider.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/countPersonal"
+ 			type="com.example.action.CountPersonalAction"
+ 			>
+ 			<forward name="success" path="/countPersonal.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/providerDelete"
+ 			type="com.example.action.admin.DeleteProviderAction"
+ 			>
+ 			<forward name="success" path="/listAdminProviderRegister.do?sidebar=1"/>
+ 			<forward name="success2" path="/listAdminProvider.do?sidebar=2"/>
+ 		</action>
+ 		<action
+ 			path="/providerDeleteTwo"
+ 			type="com.example.action.admin.DeleteProviderTwoAction"
+ 			>
+ 			<forward name="success" path="/listAdminProvider.do?sidebar=2"/>
+ 		</action>
+ 		<action
+ 			path="/listUserReportLogin"				   
+ 			type="com.example.action.admin.ListUserReportLoginAction"
+ 			input="/listUserReportLogin.do?sidebar=4"
+ 			>
+ 			<forward name="success" path="/adminListUserReport.jsp"/>
+ 			
+ 		</action>
+ 		<action
+ 			path="/testAction"				   
+ 			type="com.example.test.testAction"
+ 			>
+ 			<forward name="success" path="/test1.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/deletePersonal"				   
+ 			type="com.example.action.admin.DeletePersonalAction"
+ 			>
+ 			<forward name="success" path="/listAdminPersonal.do?sidebar=3"/>
+ 		</action>
+ 		<action
+ 			path="/confirmPavider"				   
+ 			type="com.example.action.ConFirmPasswordPaviderAction"
+ 			>
+ 			<forward name="success" path="/confirmEmail.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/viewProviderStaff"				   
+ 			type="com.example.action.ViewProviderStaffAction"
+ 			>
+ 			<forward name="success" path="/providerStaffLook.jsp"/>
+ 		</action>
+ 		<action
+ 			path="/deleteProviderStaff"				   
+ 			type="com.example.action.DeleteProviderStaffAction"
+ 			input="/viewProviderStaff.do"
+ 			>
+ 			<forward name="success" path="/mainProvider.jsp"/>
+ 		</action>
+ 		 <action
+            path="/lockProviderStaff"
+            type="com.example.action.LockProviderStaffAction"
+            >
+            <forward name="success" path="/viewProviderStaff.do?sidebar=4"/>
+        </action>
+        <action
+            path="/downloadReportUserLogin"
+            type="com.example.action.admin.DownloadReportUserLoginAction"
+            >
+            <forward name="success" path="/adminListUserReport.jsp"/>
+        </action>
+        
+</action-mappings>
+
+
+<!-- ======================================== Message Resources Definitions  <forward name="successGet" path="/adminHospitalList.jsp"/>-->
+
+    <message-resources parameter="MessageResources" />
+
+
+<!-- =============================================== Plug Ins Configuration -->
+
+  <!-- ======================================================= Tiles plugin -->
+  <!--
+     This plugin initialize Tiles definition factory. This later can takes some
+	 parameters explained here after. The plugin first read parameters from
+	 web.xml, thenoverload them with parameters defined here. All parameters
+	 are optional.
+     The plugin should be declared in each struts-config file.
+       - definitions-config: (optional)
+            Specify configuration file names. There can be several comma
+		    separated file names (default: ?? )
+       - moduleAware: (optional - struts1.1)
+            Specify if the Tiles definition factory is module aware. If true
+            (default), there will be one factory for each Struts module.
+			If false, there will be one common factory for all module. In this
+            later case, it is still needed to declare one plugin per module.
+            The factory will be initialized with parameters found in the first
+            initialized plugin (generally the one associated with the default
+            module).
+			  true : One factory per module. (default)
+			  false : one single shared factory for all modules
+	   - definitions-parser-validate: (optional)
+	        Specify if xml parser should validate the Tiles configuration file.
+			  true : validate. DTD should be specified in file header (default)
+			  false : no validation
+
+	  Paths found in Tiles definitions are relative to the main context.
+
+      To use this plugin, download and add the Tiles jar to your WEB-INF/lib
+      directory then uncomment the plugin definition below.
+
+    <plug-in className="org.apache.struts.tiles.TilesPlugin" >
+
+      <set-property property="definitions-config"
+                       value="/WEB-INF/tiles-defs.xml" />
+      <set-property property="moduleAware" value="true" />
+    </plug-in>
+  -->  
+
+
+  <!-- =================================================== Validator plugin -->
+
+  <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+    <set-property
+        property="pathnames"
+        value="/org/apache/struts/validator/validator-rules.xml,
+               /WEB-INF/validation.xml"/>
+  </plug-in>
+
+</struts-config>
+

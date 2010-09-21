@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/526/trunk/project/src/webservice/WebClient/web/WEB-INF
+END
+struts-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/524/trunk/project/src/webservice/WebClient/web/WEB-INF/struts-config.xml
+END
+validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/524/trunk/project/src/webservice/WebClient/web/WEB-INF/validation.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/524/trunk/project/src/webservice/WebClient/web/WEB-INF/web.xml
+END

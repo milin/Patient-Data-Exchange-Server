@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/480/trunk/project/src/webapp/projecthl7/web/tiles/admin
+END
+main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/tiles/admin/main.jsp
+END
+adminProviderRegisterList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/tiles/admin/adminProviderRegisterList.jsp
+END
+listUserReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/tiles/admin/listUserReport.jsp
+END
+adminProviderEdit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/tiles/admin/adminProviderEdit.jsp
+END
+adminProviderGetEdit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/tiles/admin/adminProviderGetEdit.jsp
+END
+adminPerssonalList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/tiles/admin/adminPerssonalList.jsp
+END
+adminPersonalGet.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/tiles/admin/adminPersonalGet.jsp
+END
+adminProviderList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/tiles/admin/adminProviderList.jsp
+END
+adminLogin.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/tiles/admin/adminLogin.jsp
+END
+adminPersonalGetEdit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/tiles/admin/adminPersonalGetEdit.jsp
+END
+adminProviderGet.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/web/tiles/admin/adminProviderGet.jsp
+END
+addProvider.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/480/trunk/project/src/webapp/projecthl7/web/tiles/admin/addProvider.jsp
+END

@@ -1,0 +1,14 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.equinox.p2.metadata,1.0.100.v20090525,"org.eclipse.equinox.p2.metadata",1266815902907
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1266815905383
+started,bundle,org.eclipse.equinox.p2.extensionlocation,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.extensionlocation",1266815916462
+started,bundle,org.eclipse.equinox.p2.artifact.repository,1.0.101.R35x_v20090721,"org.eclipse.equinox.p2.artifact.repository",1266815921913
+started,bundle,org.eclipse.equinox.p2.publisher,1.0.0.v20090527-1812,"org.eclipse.equinox.p2.publisher",1266815921968
+started,bundle,org.eclipse.equinox.p2.touchpoint.eclipse,1.0.101.R35x_20090820-1821,"org.eclipse.equinox.p2.touchpoint.eclipse",1266815922000
+executed,command,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk.install",1266818596574
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1266818596640
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1266818597049
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1266818869443
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1266818875480
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1266818918753
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.406.v200903031852,"org.eclipse.jst.ws.axis.creation.ui",1266818919315

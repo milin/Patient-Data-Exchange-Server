@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes
+END
+ServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/ServiceTest.java
+END
+PatientDataExchangeCallbackHandler.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeCallbackHandler.class
+END
+PatientDataExchangeStub$RequestToReceive$Factory.class
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToReceive$Factory.class
+END
+PatientDataExchangeStub$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$1.class
+END
+PatientDataExchangeStub$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$2.class
+END
+PatientDataExchangeStub$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$3.class
+END
+PatientDataExchangeStub$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$4.class
+END
+PatientDataExchangeCallbackHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeCallbackHandler.java
+END
+PatientDataExchangeStub$RequestToSend.class
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToSend.class
+END
+PatientDataExchangeStub$HashPassword.class
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$HashPassword.class
+END
+PatientDataExchangeStub$CheckLogin.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$CheckLogin.class
+END
+PatientDataExchangeStub$RequestToSendResponse$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToSendResponse$1.class
+END
+PatientDataExchangeStub$CheckLoginResponse$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$CheckLoginResponse$1.class
+END
+PatientDataExchangeStub$HashPasswordResponse$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$HashPasswordResponse$1.class
+END
+PatientDataExchangeStub$RequestToReceiveResponse.class
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToReceiveResponse.class
+END
+PatientDataExchangeStub$RequestToSendResponse$Factory.class
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToSendResponse$Factory.class
+END
+PatientDataExchangeStub$ExtensionMapper.class
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$ExtensionMapper.class
+END
+PatientDataExchangeStub$HashPasswordResponse$Factory.class
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$HashPasswordResponse$Factory.class
+END
+PatientDataExchangeStub$CheckLoginResponse$Factory.class
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$CheckLoginResponse$Factory.class
+END
+PatientDataExchangeStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub.java
+END
+PatientDataExchangeStub$RequestToSend$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToSend$1.class
+END
+PatientDataExchangeStub$CheckLogin$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$CheckLogin$1.class
+END
+PatientDataExchangeStub$HashPassword$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$HashPassword$1.class
+END
+PatientDataExchangeStub$RequestToReceive.class
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToReceive.class
+END
+PatientDataExchangeStub$RequestToSend$Factory.class
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToSend$Factory.class
+END
+PatientDataExchangeStub$RequestToReceiveResponse$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToReceiveResponse$1.class
+END
+PatientDataExchangeStub$CheckLogin$Factory.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$CheckLogin$Factory.class
+END
+PatientDataExchangeStub$HashPassword$Factory.class
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$HashPassword$Factory.class
+END
+PatientDataExchangeStub$RequestToReceiveResponse$Factory.class
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToReceiveResponse$Factory.class
+END
+PatientDataExchangeStub.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub.class
+END
+ServiceTest.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/ServiceTest.class
+END
+PatientDataExchangeStub$RequestToReceive$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToReceive$1.class
+END
+PatientDataExchangeStub$RequestToSendResponse.class
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$RequestToSendResponse.class
+END
+PatientDataExchangeStub$CheckLoginResponse.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$CheckLoginResponse.class
+END
+PatientDataExchangeStub$HashPasswordResponse.class
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/335/trunk/project/src/webservice/AppClient/WebContent/WEB-INF/classes/org/pdes/PatientDataExchangeStub$HashPasswordResponse.class
+END

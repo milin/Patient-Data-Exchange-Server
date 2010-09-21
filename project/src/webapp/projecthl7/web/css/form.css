@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: Helvetica, sans-serif;
+}
+
+#page-wrap {
+	width: 550px;
+	background: white;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+form {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px 0;
+	position: relative;
+}
+
+.tl-line {
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 10px;
+	height: 10px;
+	background: url(images/corner/corner-topleft-line.png);
+}
+
+.tr-line {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 10px;
+	height: 10px;
+	background: url(images/corner/corner-topright-line.png);
+}
+
+.bl-line {
+	position: absolute;
+	bottom: -1px;
+	left: -1px;
+	width: 10px;
+	height: 10px;
+	background: url(images/corner/corner-bottomleft-line.png);
+}
+
+.br-line {
+	position: absolute;
+	bottom: -1px;
+	right: -1px;
+	width: 10px;
+	height: 10px;
+	background: url(images/corner/corner-bottomright-line.png);
+}
+
+div.single-field {
+	padding: 10px;
+	position: relative;
+}
+
+.tl {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: url(images/corner/corner-topleft.jpg);
+	display: none;
+}
+
+.tr {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	background: url(images/corner/corner-topright.jpg);
+	display: none;
+}
+
+.bl {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: url(images/corner/corner-bottomleft.jpg);
+	display: none;
+}
+
+.br {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	background: url(images/corner/corner-bottomright.jpg);
+	display: none;
+}
+
+div.curFocus {
+	background: #fdecb2;
+}
+
+label {
+	width: 150px;
+	display: block;
+	float: left;
+	font-size: 1.2em;
+	color:#777;
+}
+
+input.blocktext {
+	margin-left: 150px;
+	margin-right: auto;
+	width: 15em;
+}
+select.blocktext {
+	margin-left: 150px;
+	margin-right: auto;
+	width: 14em;
+	
+}
+#login_error,.message{
+	margin:0 0 10px 5px;
+	border: 1px solid red;
+	background-color:#CCCC66;
+	border-style:solid;
+	padding:0px;
+ 	margin-left: 10px;
+	margin-right: 10px;
+	border-radius:2px;
+}
+ a.link{
+    margin-left: 120px;
+	margin-right: 10px;
+	
+ }
+select{
+ width: 14em;
+}
+textarea{
+ width: 16em;
+}
+
+form div.submit {
+  width: 214px;
+  padding: 0 0 0 146px;
+}
+
+form div.submit div {
+  display: inline;
+  float: left;
+  text-align: left;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+
+form div input.inputSubmit, form div input.inputButton, input.inputSubmit, input.inputButton {
+  background-color: #cccccc;
+  color: #000000;
+  width: auto;
+  padding: 0 6px;
+  margin: 0;
+}
+
+form div.submit div input.inputSubmit, form div.submit div input.inputButton {
+  float: right;
+  margin: 0 0 0 5px;
+}

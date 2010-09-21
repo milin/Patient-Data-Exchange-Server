@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/.settings
+END
+org.eclipse.core.resources.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/.settings/org.eclipse.core.resources.prefs
+END
+org.hibernate.eclipse.console.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/.settings/org.hibernate.eclipse.console.prefs
+END
+org.eclipse.ltk.core.refactoring.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/.settings/org.eclipse.ltk.core.refactoring.prefs
+END

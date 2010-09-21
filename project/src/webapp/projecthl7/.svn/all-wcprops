@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/506/trunk/project/src/webapp/projecthl7
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/452/trunk/project/src/webapp/projecthl7/.project
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/454/trunk/project/src/webapp/projecthl7/build.xml
+END

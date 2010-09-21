@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/138/trunk/project/src/sdk/PatientDataExchangeClient/WebContent/WEB-INF/lib
+END
+axis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/138/trunk/project/src/sdk/PatientDataExchangeClient/WebContent/WEB-INF/lib/axis.jar
+END
+jaxrpc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/138/trunk/project/src/sdk/PatientDataExchangeClient/WebContent/WEB-INF/lib/jaxrpc.jar
+END
+slf4j-log4j12-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/138/trunk/project/src/sdk/PatientDataExchangeClient/WebContent/WEB-INF/lib/slf4j-log4j12-1.5.6.jar
+END
+wsdl4j.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/138/trunk/project/src/sdk/PatientDataExchangeClient/WebContent/WEB-INF/lib/wsdl4j.jar
+END
+commons-discovery-0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/138/trunk/project/src/sdk/PatientDataExchangeClient/WebContent/WEB-INF/lib/commons-discovery-0.2.jar
+END
+saaj.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/138/trunk/project/src/sdk/PatientDataExchangeClient/WebContent/WEB-INF/lib/saaj.jar
+END
+slf4j-api-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/138/trunk/project/src/sdk/PatientDataExchangeClient/WebContent/WEB-INF/lib/slf4j-api-1.5.6.jar
+END
+slf4j-simple-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/138/trunk/project/src/sdk/PatientDataExchangeClient/WebContent/WEB-INF/lib/slf4j-simple-1.5.6.jar
+END
+commons-logging.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/138/trunk/project/src/sdk/PatientDataExchangeClient/WebContent/WEB-INF/lib/commons-logging.jar
+END
+webserviceutils.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/138/trunk/project/src/sdk/PatientDataExchangeClient/WebContent/WEB-INF/lib/webserviceutils.jar
+END

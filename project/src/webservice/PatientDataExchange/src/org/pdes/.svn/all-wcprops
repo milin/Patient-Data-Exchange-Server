@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/522/trunk/project/src/webservice/PatientDataExchange/src/org/pdes
+END
+DBConnect.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/508/trunk/project/src/webservice/PatientDataExchange/src/org/pdes/DBConnect.java
+END
+PatientDataExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/522/trunk/project/src/webservice/PatientDataExchange/src/org/pdes/PatientDataExchange.java
+END
+SecurityPDES.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/500/trunk/project/src/webservice/PatientDataExchange/src/org/pdes/SecurityPDES.java
+END
+NetworkProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/509/trunk/project/src/webservice/PatientDataExchange/src/org/pdes/NetworkProvider.java
+END
+PatientDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/511/trunk/project/src/webservice/PatientDataExchange/src/org/pdes/PatientDataProvider.java
+END
