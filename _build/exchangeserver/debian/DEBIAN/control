@@ -2,7 +2,7 @@ Package: Exchange-Server
 Version: 1.1-1
 Section: base
 Priority: optional
-Architecture:a
+Architecture:all
 Depends: bash (>= 2.05a-11), grep (>= 2.4.2-3), coreutils (>= 5.0-5)     
    , libtomcat6-java (>=6.0.24-2), tomcat6 (>=6.0.24-2), tomcat6-admin (>=6.0.24-2), tomcat6-common (>=6.0.24-2), tomcat6-docs (>=6.0.24-2), tomcat6-examples (>=6.0.24-2), apache2 (>= 2.2.14-5), apache2-mpm-worker (>= 2.2.14-5), apache2-utils (>=2.2.14-5),apache2.2-bin (>= 2.2.14-5), apache2.2-common (>=2.2.14-5), mysql-server (>= 5.1.41-3)
 Maintainer: Milind Shakya <sh.milind@gmail.com>
