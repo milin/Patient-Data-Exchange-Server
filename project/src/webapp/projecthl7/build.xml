@@ -7,7 +7,7 @@
   <property name="build" location="classes"/>
   <property name="dist" location="dist"/>
   <property name="web" location="web"/>
-  <property name="tomcat.home" location="/opt/tomcat6"/>
+  <property name="tomcat.home" location="/usr/share/tomcat6"/>
   <property name="tomcat.webapps" location="${tomcat.home}/webapps"/>
   <property name="web.app" location="${web}"/>
   <property name="web.app.web-inf" location="${web.app}/WEB-INF"/>
