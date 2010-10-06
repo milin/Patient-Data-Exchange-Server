@@ -1,0 +1,2 @@
+<Context path="/examples" 
+	docBase="/usr/share/tomcat6-examples/examples" />
