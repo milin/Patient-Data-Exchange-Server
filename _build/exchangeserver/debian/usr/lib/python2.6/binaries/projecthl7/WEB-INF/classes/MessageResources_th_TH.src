@@ -1,0 +1,220 @@
+#   Licensed to the Apache Software Foundation (ASF) under one or more
+#   contributor license agreements.  See the NOTICE file distributed with
+#   this work for additional information regarding copyright ownership.
+#   The ASF licenses this file to You under the Apache License, Version 2.0
+#   (the "License"); you may not use this file except in compliance with
+#   the License.  You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+
+# -- standard errors --
+errors.header=<ul>
+errors.prefix=<li>
+errors.suffix=</li>
+errors.footer=</ul>
+# -- validator --
+errors.invalid={0} is invalid.
+errors.maxlength={0} can not be greater than {1} characters.
+errors.minlength={0} can not be less than {1} characters.
+errors.range={0} is not in the range {1} through {2}.
+errors.required={0} is required.
+errors.byte={0} must be an byte.
+errors.date={0} is not a date.
+errors.double={0} must be an double.
+errors.float={0} must be an float.
+errors.integer={0} must be an integer.
+errors.long={0} must be an long.
+errors.short={0} must be an short.
+errors.creditcard={0} is not a valid credit card number.
+errors.email={0} is an invalid e-mail address.
+errors.forgotPassword.email=Please type your email.
+errors.forgotPassword.username=Please type your username.
+errors.forgot.incorrect=The username or email address not found in the database
+errors.forgot.noconfirm=Please confirm your email..
+errors.forgot.confirm=Please wait the confirmation Email...
+# -- other --
+errors.cancel=Operation cancelled.
+errors.detail={0}
+errors.general=The process did not complete. Details should follow.
+errors.token=Request could not be completed. Operation is not in sequence.
+email.confirmation=You can e-mail confirmation.
+email.notConfirmation=You can not e-mail confirmation.
+# -- welcome --
+welcome.title=Struts Blank Application
+welcome.heading=Welcome22!
+welcome.message=To get started on your own application, copy the struts-blank.war to a new WAR file using the name for your application. Place it in your container's "webapp" folder (or equivalent), and let your container auto-deploy the application. Edit the skeleton configuration files as needed, restart your container, and you are on your way! (You can find the MessageResources.properties file with this message in the /WEB-INF/src folder.)
+
+# -- forms --
+
+
+#--register
+
+applicationForm.hospital.header=สมัครสมาชิก
+applicationForm.hospital.header.edit=แก้ไขผู้ให้บริการ
+applicationForm.hospital.name=ชื่อผู้บริการ
+applicationForm.hospital.username=ชื่อเข้าใช้งาน
+applicationForm.hospital.password=รหัสผ่าน
+applicationForm.hospital.passwordLength=7
+applicationForm.hospital.repassword=ยืนยันรหัสผ่าน
+applicationForm.hospital.www=เว็บไซต์
+applicationForm.hospital.type=ประเภท
+applicationForm.hospital.government=รัฐบาล
+applicationForm.hospital.person=เอกชน
+applicationForm.hospital.phone=มือถือ
+applicationForm.hospital.phone2=มือถือ
+applicationForm.hospital.fax=แฟลก์
+applicationForm.hospital.country=ประเทศ
+applicationForm.hospital.city=เมือง
+applicationForm.hospital.address=ที่อยู่
+applicationForm.hospital.createdOn=วันที่สมัคร
+applicationForm.hospital.zip=รหัสไปรณีย์
+applicationForm.hospital.contactName=ชื่อผู้ติดต่อ
+applicationForm.hospital.status=สถานะ
+applicationForm.hospital.contactSurName=นามสกุลผู้ติดต่อ
+applicationForm.hospital.contactMobile=มือถือผู้ติดต่อ
+applicationForm.hospital.contactEmail=อีเมล์ผู้ติดต่อ
+applicationForm.hospital.example.username =ตัวอย่าง \: JSmith, John.Smith 
+applicationForm.hospital.example.phone =ตัวอย่าง :
+applicationForm.hospital.example.zip=ตัวอย่าง :
+applicationForm.hospital.example.fax=ตัวอย่าง :
+applicationForm.hospital.example.contactMobile=ตัวอย่าง :
+applicationForm.hospital.example.contactEmail=ตัวอย่าง :
+applicationForm.hospital.addPersonal.providerName=ชื่อผู้ให้บริการ
+applicationForm.hospital.addProvider=เพิ่มสถานบริการ
+
+applicationForm.hospital.addStatus=สถานะ
+applicationForm.submit=ตกลง
+applicationForm.reset=เครียร์
+applicationForm.hospital.connect=ติดต่อ
+#--end--#
+applicationForm.provider=ผู้ให้สถานบริการ
+applicationForm.hospitalad.addminname=ชื่อผู้ดูแลระบบ
+applicationForm.hospitalad.adminSurname=นามสกุลผู้ดูแลระบบ
+applicationForm.hospitalad.email=อีเมล์ผู้ดูแลระบบ
+applicationForm.hospitalad.tel=โทรศัพท์ผู้ดูแลระบบ
+
+error.fail=The request couldn't be processed.
+userRegisterForm.nameThai=Name Thai.
+localeSet=Your locale has been changed.
+#--begin main provider--
+applicationForm.hospital.main.personal=เจ้าหน้าที่
+applicationForm.hospital.main.service=บริการ
+applicationForm.hospital.main.edit=แก้ไข
+
+applicationForm.hospital.contactAdmin=Your Message
+applicationForm.hospital.main.contactAdmin=ติดต่อผู้ดูแลระบบ
+#--end main
+
+#--begin addPersonal
+
+applicationForm.hospital.addPersonal.header=เพิ่มเจ้าหน้าที่
+applicationForm.hospital.addPersonal.header.edit=แก้ไข
+applicationForm.hospital.addPersonal.firstName=ชื่อ
+applicationForm.hospital.addPersonal.name=ชื่อ
+applicationForm.hospital.addPersonal.lastName=นามสกุล
+applicationForm.hospital.addPersonal.title=คำนำหน้า
+applicationForm.hospital.addPersonal.email=อีเมล์
+applicationForm.hospital.addPersonal.phone=โทรศัพท์
+applicationForm.hospital.addPersonal.mobile=มือถือ
+applicationForm.hospital.addPersonal.fax=แฟลก์
+applicationForm.hospital.addPersonal.prority=สถานะ
+applicationForm.hospital.add1=เพิ่ม
+applicationForm.hospital.addService=เพิ่มบริการ
+#--end
+
+#--begin list Personal
+
+applicationForm.hospital.listPersonal.add=เพิ่มเจ้าหน้าที่
+applicationForm.hospital.listPersonal.header=รายเจ้าหน้าที่
+applicationForm.hospital.listPersonal.search=ค้นหา
+applicationForm.hospital.listPersonal.addProvider=เพิ่มสถานบริการ
+applicationForm.hospital.listPersonal.no=ไม่
+applicationForm.hospital.listPersonal.name=ชื่อ
+applicationForm.hospital.listPersonal.position=ตำแหน่ง
+applicationForm.hospital.listPersonal.edit=แก้ไข
+applicationForm.hospital.listPersonal.delete=ลบ
+applicationForm.hospital.listPersonal.noData=ไม่มีข้อมูล
+applicationForm.hospital.Personal.editHeader=แก้ไขบุคคล
+applicationForm.hospital.listRegister=สมัคร
+applicationForm.hospital.cancel=ยกเลิก
+#--end list Personal
+#--login
+
+applicationForm.hospitalad.login.singUp=สมัคร
+applicationForm.hospitalad.login=เข้าสู่ระบบ
+applicationForm.hospitalad.login.username=ชื่อเข้าระบบ
+applicationForm.hospitalad.login.password=รหัสผ่าน
+applicationForm.hospitalad.login.forgot=ลืมรหัสผ่าน?
+applicationForm.hospitalad.login.sign=เข้าระบบ
+errors.login.incorrect=Incorrect sign-in information. Please retry again.
+errors.login.idIsLocked=ชื่อเข้าใช้งานโดนล็อค.
+applicationForm.hospital.add=<h>::</h>
+#--end Login
+#--begin login admin
+applicationForm.hospital.listHospital.header=รายชื่อสถานบริการ
+applicationForm.hospital.register=รายชื่อสถานบริการที่สมัคร
+
+#menu admin 
+
+applicationForm.admin.menu.register=รายชื่อสถานบริการที่สมัคร
+applicationForm.admin.menu.provider=รายชื่อสถานบริการ
+applicationForm.admin.menu.personal=รายชื่อเจ้าหน้าที่
+applicationForm.admin.menu.userReport=รายงานคนเข้าใช้งาน
+applicationForm.hospital.onlineTime=เข้าใช้งานเวลา
+applicationForm.hospital.offlineTime=เลิกใช้งานเวลา
+#Provider request
+applicationForm.hospital.listProvidersConnect=รายชื่อสถานบริการที่ติดต่อ
+applicationForm.hospital.providerRequests=Provider Requests
+applicationForm.hospital.sentProviderRequests=Sent Provider Requests
+
+applicationForm.hospital.changePassword=เปลี่ยนรหัสผ่าน
+applicationForm.hospital.currentPassword=รหัสผ่านเดิม:
+applicationForm.hospital.choosePassword=รหัสผ่านใหม่: 	
+applicationForm.hospital.rePassword=รหัสผ่านใหม่อีกครั้ง: 
+applicationForm.hospitalad.login.sign.admin=ผู้ดูแลระบบ
+applicationForm.hospital=สถานบริการ
+applicationForm.hospital.listhospital=รายชื่อสถานบริการ
+applicationForm.hospital.edit=แก้ไข
+applicationForm.hospital.view=รายละเอียด
+applicationForm.hospital.lock=ล็อค/ไม่ล็อค
+applicationForm.hospital.mail=ส่งอีเมล์
+#--end
+applicationForm.hospital.addproviderStass=Add Provider Staff
+applicationForm.hospital.providerStass=Provider Staff
+errors.login.providerNotLogin=another provider account is currently login
+#--error
+applicationForm.hospital.error.country=Please Select Country
+applicationForm.hospital.error.type=Please Select Type
+applicationForm.hospital.error.city=Please Select City
+applicationForm.error.checkbox=Please Select Checkbox
+errors.position={0} is an invalid position.
+errors.phone2={0} is an invalid phone2.
+errors.phone={0} is an invalid phone.
+errors.phone21=Phone2 is an invalid phone.
+errors.mobile={0} is an invalid mobile.
+errors.fax={0} is an invalid fax.
+errors.phone.fax={0} is an invalid fax.
+errors.phone.zip={0} is an invalid Postal code.
+errors.phone.contactMobile={0} is an invalid Contact-Mobile.
+errors.end.date=Please Select End-Date
+applicationForm.hospital.error.password=Password is not available.
+
+applicationForm.hospital.error.newPassword=New Password not available.
+applicationForm.hospital.error.currentPassword=Current Password not available.
+applicationForm.hospital.error.UserName=UserName is not available
+applicationForm.hospital.errorLogin.userName=Please type your username
+applicationForm.hospital.error.Name=Provider Name is not available
+applicationForm.hospital.errorLogin.password=Please type your password
+applicationForm.hospital.personal.error.name=Name is not available.
+errors.noConfirm=No Confirm
+
+applicationForm.menu.allProviders=สถานบริการทั้งหมด
+applicationForm.menu.partnerList=Partner List
+applicationForm.menu.outgoingRequests=Outgoing Requests
+applicationForm.menu.incomingRequests=Incoming Requests

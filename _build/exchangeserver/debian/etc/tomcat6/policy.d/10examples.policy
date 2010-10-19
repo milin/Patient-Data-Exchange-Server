@@ -1,3 +1,0 @@
-grant codeBase "file:${catalina.home}/bin/tomcat-juli.jar" {
-       permission java.io.FilePermission "/usr/share/tomcat6-examples/examples/WEB-INF/classes/logging.properties", "read";
-};

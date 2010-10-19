@@ -3,8 +3,7 @@ Version: 1.1-1
 Section: base
 Priority: optional
 Architecture:all
-Depends: bash (>= 2.05a-11), grep (>= 2.4.2-3), coreutils (>= 5.0-5)     
-   , libtomcat6-java (>=6.0.24-2)
+Depends: bash (>= 2.05a-11), grep (>= 2.4.2-3), coreutils (>= 5.0-5), apache2 (>= 2.2.14-4),tomcat6 (>= 6.0.24-2),mysql-server (>= 5.1.41-3) 
 Maintainer: Milind Shakya <sh.milind@gmail.com>
 Description: Exchange-Server
 

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.example.model.Provider" table="Provider">
+        <id name="id">
+        	<generator class="native"/>
+        </id>
+        <property name="name"/>
+        <property name="username"/>
+        <property name="password"/>
+        <property name="type"/>
+        <property name="www"/>
+       	<property name="contactName"/>
+		<property name="contactMobile"/>
+        <property name="ipAddress"/>
+        <property name="twoNdIp"/>
+        <property name="address"/>
+        <property name="zip"/>
+        <property name="phone"/>
+        <property name="fax"/>
+        <property name="contactEmail"/>	
+        <property name="status"/>
+        <property name="serviceId"/>
+        <property name="statusOnline"/>
+        <property name="createdOn"/>	
+       	<set name="personals" order-by="createdOn">
+	        <key column="providerId" />
+	        <one-to-many class="com.example.model.Personal"/>
+	    </set>
+	    <set name="providerServices" order-by="createdOn">
+	        <key column="providerId" />
+	        <one-to-many class="com.example.model.ProviderService"/>
+	    </set>
+	     <set name="providerServicess" order-by="createdOn">
+	        <key column="providerIds" />
+	        <one-to-many class="com.example.model.ProviderService"/>
+	    </set>
+	    <set name="onlines" order-by="createdOn">
+	        <key column="providerId" />
+	        <one-to-many class="com.example.model.Online"/>
+	    </set>
+	   <many-to-one 
+	   		name="City"
+			column="cityId"
+			class="com.example.model.City"/>
+    </class>
+</hibernate-mapping>
