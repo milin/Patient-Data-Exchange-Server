@@ -1,4 +1,1 @@
-#!/bin/bash
-sudo cp -r projecthl7 /var/lib/tomcat6/webapps
-sudo cp projecthl7.war /var/lib/tomcat6/webapps
-sudo cp New.war /var/lib/tomcat6/webapps
+../lib/python2.6/binaries/xdeploy.sh
