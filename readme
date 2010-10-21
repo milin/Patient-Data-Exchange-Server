@@ -11,6 +11,17 @@ http://tomcat.apache.org/download-60.cgi
 
 The package will install all the dependencies that the Exchange Server needs.
 
+System Requirements:
+To run the exchange server you need to have the following system requirements
+1. Operating System: Ubuntu 10.04 or later
+2. Memory: 3 Gb of RAM
+3. Hard Disk Space: Minumum 20GB
+3. Apache2 server (>= 2.2.14-4)
+4. Tomcat6 (>=6.0.24-2)
+5. Mysql-server (>=5.1.41-3)
+6. OpenJDK Runtime Environment (IcedTea6 1.8.1) (6b18-1.8.1-0ubuntu1) and   Jave Runtime Environment
+7. Internet Browser
+
 Steps to follow during the Installation:
 1. The installation might take a long time, so please be patient.
 2. If the installation takes forever, please check that you have the best ubuntu server for your location by going to System>Administration>Software Sour   ces. Then Select Best Server.
