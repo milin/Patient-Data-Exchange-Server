@@ -14,8 +14,13 @@ If you are a ubuntu user, you can simply install git by typing the following com
  2) for read only access 
           "git://github.com/milin/Patient-Data-Exchange-Server.git"
 
- For developers, you probably have to be included in the colaborators lists and then you can have the read + write access after I put your ssh public keys in github.
+ For developers, you probably have to be included in the colaborators li
+ sts and then you can have the read + write access after I put your ssh public keys in github.
 
 
- For development purposes, you will need apache2,tomcat6, and mysql-server.But if you download the exchangeserver package all these dependencies will be automatically installed in your system. Just be sure to use the default password "signature" for the mysql-server installation when the wizard prompts you to enter the password.
+ For development purposes, you will need apache2,tomcat6, and mysql-serve
+ r.But if you download the exchangeserver package all these dependencies
+ will be automatically installed in your system. Just be sure to use the
+ default password "signature" for the mysql-server installation when the
+ wizard prompts you to enter the password.
 
