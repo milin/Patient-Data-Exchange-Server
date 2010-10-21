@@ -1,3 +1,25 @@
 Patient Data Exchange Server
 
+Installation Instructions:
+
+Download the debian package from the following url.
+
 http://dl.dropbox.com/u/3479115/exchangeserver.deb
+
+Currently the package only supports ubuntu 10.04 and above. For older versions of Ubuntu, you have to manually install tomcat6 from their website.
+http://tomcat.apache.org/download-60.cgi
+
+The package will install all the dependencies that the Exchange Server needs.
+
+Steps to follow during the Installation:
+1. The installation might take a long time, so please be patient.
+2. If the installation takes forever, please check that you have the best ubuntu server for your location by going to System>Administration>Software Sour   ces. Then Select Best Server.
+3. During the installation, the wizard will ask you for mysql password. Keep in mind to use the default password "signature".
+
+
+Steps to follow after the Installation:
+1. After the installation is complete, Open the terminal and type "database-setup.sh" to setup the database for the exchangeserver.
+2. After that type "xdeploy" to deploy the war file.
+3. Go to your browser, and type http://localhost:8080/projecthl7 to use the exchange server
+4. Go to your browser, and type http://localhost:8080/New to use the message exchanging interface
+
