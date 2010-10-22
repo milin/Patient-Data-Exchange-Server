@@ -23,4 +23,11 @@ If you are a ubuntu user, you can simply install git by typing the following com
  will be automatically installed in your system. Just be sure to use the
  default password "signature" for the mysql-server installation when the
  wizard prompts you to enter the password.
+ 
+ Pushing changes to the main branch.
 
+ Once collaborator status has been given to you, you can push your changes to the code using the following command.
+
+ git push origin master.
+
+ If you are not on the collaborator status, meaning you have just forked the project and you want some of your changes to  be integrated with the main branch, you can send a pull request to the admin.
