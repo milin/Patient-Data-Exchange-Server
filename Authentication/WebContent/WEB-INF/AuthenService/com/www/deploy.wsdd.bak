@@ -1,0 +1,30 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from AuthenService WSDL service -->
+
+  <service name="Authen" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://www.com"/>
+      <parameter name="wsdlServiceElement" value="AuthenService"/>
+      <parameter name="schemaQualified" value="http://www.com"/>
+      <parameter name="wsdlServicePort" value="Authen"/>
+      <parameter name="className" value="com.www.AuthenSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="Authen"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="checklogin" qname="operNS:checklogin" xmlns:operNS="http://www.com" returnQName="retNS:checkloginReturn" xmlns:retNS="http://www.com" returnType="rtns:boolean" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:user" xmlns:pns="http://www.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:pass" xmlns:pns="http://www.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <parameter name="allowedMethods" value="checklogin"/>
+
+  </service>
+</deployment>
