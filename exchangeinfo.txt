@@ -1,0 +1,10 @@
+The exchange server package installs the current working version of the exchange server in Ubuntu 10.04 and above. For earlier versions of the OS, you have to download tomcat6 from their website manually.
+
+If for later purposes if you want to make changes to a particular file in the package, you have to make the specified change in the file following the exact directory structure in the package. For eg. if the specified pfile is in /usr/bin then you have to go to debian/usr/bin in the package structure and run dpkg -b debian to make the debian package. Also, care must be take to update the control file, if any new dependencies are met.
+
+HA-Features of Exchange Server.
+
+As of now, HA-OSCAR and Exchange Server resides in two different packages. But they work hand in hand. First the Exchange Server package should be install in the new system fulfilling the system requirements. Then HA-OSCAR should be installed. 
+One thing to keep in mind is to keep the root directory / for cloning purposes, since the war file essential for exchange server is stored in /usr/share/tomcat6/webapps. So, the root directory must be setup for replication.
+
+If the primary server has downtime for various reasons, the ip failsover to the secondary server. And after maintaince of the primary server, failback occurs to sync data from the secondary to the primary again.
