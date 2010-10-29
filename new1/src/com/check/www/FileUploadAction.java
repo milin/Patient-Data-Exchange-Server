@@ -94,7 +94,7 @@ public class FileUploadAction extends org.apache.struts.action.Action {
             }
         }
 
-		//String rec = "catch_apurba@yahoo.com";
+		
 		
 
       return mapping.findForward(SUCCESS);
