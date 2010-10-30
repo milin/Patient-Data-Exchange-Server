@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://hl7.partner.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://hl7.partner.com" xmlns:intf="http://hl7.partner.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://hl7.partner.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="partener">
+    <complexType>
+     <sequence>
+      <element name="users" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="partenerResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="partenerReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="partenerResponse">
+
+      <wsdl:part element="impl:partenerResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="partenerRequest">
+
+      <wsdl:part element="impl:partener" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="Partner">
+
+      <wsdl:operation name="partener">
+
+         <wsdl:input message="impl:partenerRequest" name="partenerRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:partenerResponse" name="partenerResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="PartnerSoapBinding" type="impl:Partner">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="partener">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="partenerRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="partenerResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="PartnerService">
+
+      <wsdl:port binding="impl:PartnerSoapBinding" name="Partner">
+
+         <wsdlsoap:address location="http://localhost:8082/Partner/services/Partner"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

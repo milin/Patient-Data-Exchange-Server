@@ -1,0 +1,33 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from RequestsendService WSDL service -->
+
+  <service name="Requestsend" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://hl7.request.com"/>
+      <parameter name="wsdlServiceElement" value="RequestsendService"/>
+      <parameter name="schemaQualified" value="http://hl7.request.com"/>
+      <parameter name="wsdlServicePort" value="Requestsend"/>
+      <parameter name="className" value="com.request.hl7.RequestsendSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="Requestsend"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="sendemail" qname="operNS:sendemail" xmlns:operNS="http://hl7.request.com" soapAction="" >
+        <parameter qname="pns:receiptent" xmlns:pns="http://hl7.request.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:firstname" xmlns:pns="http://hl7.request.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:lastname" xmlns:pns="http://hl7.request.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:age" xmlns:pns="http://hl7.request.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:sex" xmlns:pns="http://hl7.request.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <parameter name="allowedMethods" value="sendemail"/>
+
+  </service>
+</deployment>

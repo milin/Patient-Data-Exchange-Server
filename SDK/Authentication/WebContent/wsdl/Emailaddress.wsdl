@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://hl7.email.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://hl7.email.com" xmlns:intf="http://hl7.email.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://hl7.email.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="sendemail">
+    <complexType>
+     <sequence>
+      <element name="receiptent" type="xsd:string"/>
+      <element name="firstname" type="xsd:string"/>
+      <element name="lastname" type="xsd:string"/>
+      <element name="age" type="xsd:string"/>
+      <element name="sex" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="sendemailResponse">
+    <complexType/>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="sendemailResponse">
+
+      <wsdl:part element="impl:sendemailResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="sendemailRequest">
+
+      <wsdl:part element="impl:sendemail" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="Emailaddress">
+
+      <wsdl:operation name="sendemail">
+
+         <wsdl:input message="impl:sendemailRequest" name="sendemailRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:sendemailResponse" name="sendemailResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="EmailaddressSoapBinding" type="impl:Emailaddress">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="sendemail">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="sendemailRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="sendemailResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="EmailaddressService">
+
+      <wsdl:port binding="impl:EmailaddressSoapBinding" name="Emailaddress">
+
+         <wsdlsoap:address location="http://localhost:8082/Authentication/services/Emailaddress"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>
