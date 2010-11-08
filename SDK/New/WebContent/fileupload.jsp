@@ -11,7 +11,7 @@
         <title>File Upload</title>
     </head>
     <body>
-        <html:form action="/InputAction1">
+        <html:form action="/InputAction1" method="post" enctype="multipart/form-data">
         <html:errors />
         <table>
         <tr>
@@ -25,13 +25,19 @@
                         </html:select>
         </td>
         </tr>
+        <tr>
+          <td align="right">
+           <html:submit property="method" value="save1" />
+          </td>
+          <td align="left">
+        </tr>
+        
+        
         </table>
         
+        
         </html:form>
-        <html:form action="/FileUploadAction1.do" method="post" enctype="multipart/form-data">
-            File : <html:file property="file" /> <br/>
-            <html:submit />
-        </html:form>
+        
         
         
         

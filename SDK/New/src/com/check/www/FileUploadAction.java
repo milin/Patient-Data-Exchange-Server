@@ -20,7 +20,8 @@ import org.apache.struts.upload.FormFile;
 import java.io.*;
 import java.util.Date;
 import java.util.Properties;
-
+import org.apache.struts.action.*;
+import org.apache.struts.actions.*;
 import javax.mail.Message;
 import javax.mail.Session;
 import javax.mail.Transport;
@@ -30,7 +31,7 @@ import javax.mail.internet.MimeMessage;
  *
  
  */
-public class FileUploadAction extends org.apache.struts.action.Action {
+public class FileUploadAction extends DispatchAction {
 
     /* forward name="success" path="" */
     private final static String SUCCESS = "success";
@@ -39,8 +40,10 @@ public class FileUploadAction extends org.apache.struts.action.Action {
             HttpServletRequest request, HttpServletResponse response)
             throws Exception {
         FileUploadForm uploadForm = (FileUploadForm) form;
-        //InputForm1 user2 = (InputForm1)request.getSession().getAttribute("InputForm1");
-        //String selectedpartner = user2.getCountry();
+        InputForm1 user2 = (InputForm1)request.getSession().getAttribute("InputForm1");
+        String selectedpartner = user2.getCountry();
+        Check1 ch = new Check1();
+        String emailofpartner = ch.emailfinder(selectedpartner);
         FileOutputStream outputStream = null;
         FormFile formFile = null;
         try {
@@ -62,7 +65,7 @@ public class FileUploadAction extends org.apache.struts.action.Action {
            
            String url = "<a href='"+check+"'>";
             String subject = "patient data file";
-            String to = "catchapurba@gmail.com";
+            String to = emailofpartner;
             
           Properties props = new Properties();
           String SMTP_AUTH_USER="exchangeserverhl7@gmail.com";

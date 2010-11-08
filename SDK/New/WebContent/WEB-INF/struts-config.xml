@@ -66,7 +66,7 @@
                 input="input.jsp"
                 parameter="method">
                 <forward name="success" path="/fileupload.jsp" />
-                
+                <forward name = "succ"  path ="/upload.jsp" />
                 </action>
     </action-mappings>
     

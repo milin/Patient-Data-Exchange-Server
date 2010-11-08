@@ -2,6 +2,8 @@ package com.check.www;
 
 import java.util.ArrayList;
 
+import org.apache.struts.upload.FormFile;
+
 public class InputForm1 extends org.apache.struts.action.ActionForm {
     private String country;
     
@@ -64,6 +66,6 @@ public class InputForm1 extends org.apache.struts.action.ActionForm {
         this.stateList = stateList;
     }
 
-	
+   
 
 }
