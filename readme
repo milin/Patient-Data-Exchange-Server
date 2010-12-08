@@ -22,6 +22,20 @@ To run the exchange server you need to have the following system requirements
 6. OpenJDK Runtime Environment (IcedTea6 1.8.1) (6b18-1.8.1-0ubuntu1) and   Jave Runtime Environment
 7. Internet Browser
 
+Specification of Server
+1) CPU:- Dual Intel Xeon Quad Core 2.8 Ghz or more, 1333 Mhz FSB, 12 mb cache.
+2) Memory:- 8192 mb DDR 1333 Mhz.
+3) Harddrive :- 4*500 GB harddirve 15000 rpm SATA harddrive
+4) NIC: Dual Port GB NIC
+5) Operating System : Ubuntu 9.10
+6) Database Server : Mysql 5.1.37
+7) Webserver: Apache 2.0
+8) Webcontainer:Tomcat 6.0
+
+
+
+
+
 Steps to follow during the Installation:
 1. The installation might take a long time, so please be patient.
 2. If the installation takes forever, please check that you have the best ubuntu server for your location by going to System>Administration>Software Sour   ces. Then Select Best Server.
